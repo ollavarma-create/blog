@@ -35,10 +35,10 @@ The electronics are described in more detail in the [LoRaWAN repository](https:/
 * **Power:** CN3791 MPPT solar charger controller + NCR18650 cell + 6V 133×73 mm mono solar panel
 * **Regulator:** HT7833 3.3V LDO
 
-[![Schematic](https://github.com/ollavarma-create/lorawan/tree/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)](https://codeberg.org/hiltsu/lorawan/src/branch/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)
+[![Schematic](https://github.com/ollavarma-create/lorawan/tree/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)](ttps://github.com/ollavarma-create/lorawan/tree/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)
 *KiCad schematic — ESP32 ULP + RFM95W + BME280, Rev 3, 28 Apr 2026*
 
-[![PCB prototype](https://github.com/ollavarma-create/lorawan/tree/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)](https://codeberg.org/hiltsu/lorawan/src/branch/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)
+[![PCB prototype](https://github.com/ollavarma-create/lorawan/tree/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)](https://github.com/ollavarma-create/lorawan/tree/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)
 *First prototype PCB*
 
 ![Caution about CN3791 MPPT Adjustable Solar Charger Panel 3.7V 18650 Lithium Battery Charger Board](caution.JPG)
