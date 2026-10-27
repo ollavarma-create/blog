@@ -1,5 +1,4 @@
 ##
-## Jari Hiltunen — hiltsu.codeberg.page
 ## Hugo configuration with Finnish + English multilingual support.
 ##
 ## Note on i18n: UI strings (button labels, "published", etc.) are now
@@ -96,7 +95,7 @@ enableRobotsTXT                = true
 [params]
   author       = "Jari Hiltunen"
   subtitle     = "OH4CMA — Old and new bloggings"
-  codebergUser = "hiltsu"
+  codebergUser = "ollavarma-create"
 
   # Profile links shown in the footer.
   [[params.links]]
