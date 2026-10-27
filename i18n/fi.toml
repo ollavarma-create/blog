@@ -1,0 +1,33 @@
+# Finnish UI strings.
+# Hugo loads this automatically from /i18n/fi.toml.
+# Templates use it via {{ i18n "key" }}.
+
+[publishedOn]
+other = "Julkaistu"
+
+[readMore]
+other = "Lue lisää"
+
+[tagLabel]
+other = "Aiheet"
+
+[allPosts]
+other = "Kaikki artikkelit"
+
+[backToHome]
+other = "← Takaisin"
+
+[relatedPosts]
+other = "Aiheeseen liittyvää"
+
+[previousPost]
+other = "Edellinen"
+
+[nextPost]
+other = "Seuraava"
+
+[poweredBy]
+other = "Toiminnassa"
+
+[hostedOn]
+other = "Sivutila"

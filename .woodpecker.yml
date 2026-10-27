@@ -1,0 +1,31 @@
+# .woodpecker.yml — Automated Hugo build and deploy to Codeberg Pages
+#
+# Prerequisites:
+#   1. Enable Woodpecker CI for your repo at https://ci.codeberg.org
+#   2. Add a secret named 'cbtoken' with a Codeberg access token
+#      (Settings → Secrets in Woodpecker)
+#   3. The token needs write access to the repository
+
+when:
+  branch: main
+  event: push
+
+steps:
+  - name: build
+    image: hugomods/hugo:latest
+    commands:
+      - hugo --minify
+
+  - name: deploy
+    image: bitnami/git:latest
+    commands:
+      - cd public
+      - git init
+      - git config user.email "ci@codeberg.org"
+      - git config user.name "Woodpecker CI"
+      - git checkout -b pages
+      - git add -A
+      - git commit -m "Deploy ${CI_COMMIT_SHA:0:8}"
+      - git remote add origin https://$CBTOKEN@codeberg.org/hiltsu/pages.git
+      - git push -f origin pages
+    secrets: [cbtoken]

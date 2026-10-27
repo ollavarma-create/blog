@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<p class="page-description">
+  {{ .Site.Language.Params.description }}
+</p>
+
+<ul class="post-list">
+  {{ $pages := where .Site.RegularPages "Section" "posts" }}
+  {{ $paginator := .Paginate $pages }}
+  {{ range $paginator.Pages }}
+  <li class="post-item">
+    <h2 class="post-item__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <div class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">
+        {{ i18n "publishedOn" }} {{ .Date.Format "2.1.2006" }}
+      </time>
+    </div>
+    {{ with .Summary }}
+    <p class="post-summary">{{ . | plainify | truncate 240 }}</p>
+    {{ end }}
+    {{ with .Params.tags }}
+    <div class="tags">
+      {{ range . }}
+        <a class="tag" href="{{ "tags/" | absLangURL }}{{ . | urlize }}/">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>
+
+{{ template "_internal/pagination.html" . }}
+
+{{ end }}

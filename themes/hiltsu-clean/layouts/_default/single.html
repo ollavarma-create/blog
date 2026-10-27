@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+
+    {{/* Show date only for actual posts with a real date (not Hugo's zero value 0001-01-01).
+         Static pages like about.md typically have no date in front matter. */}}
+    {{ if and (eq .Section "posts") (.Date.After (time "1970-01-01")) }}
+    <div class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">
+        {{ i18n "publishedOn" }} {{ .Date.Format "2.1.2006" }}
+      </time>
+    </div>
+    {{ end }}
+
+    {{ with .Params.tags }}
+    <div class="tags tags--header">
+      {{ range . }}
+        <a class="tag" href="{{ "tags/" | absLangURL }}{{ . | urlize }}/">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  {{/* Show navigation footer only for posts, not static pages like about */}}
+  {{ if eq .Section "posts" }}
+  <footer class="post-footer">
+    {{ partial "post-nav.html" . }}
+    {{ partial "related-posts.html" . }}
+    <p class="back-link">
+      <a href="{{ "posts/" | absLangURL }}">{{ i18n "backToHome" }}</a>
+    </p>
+  </footer>
+  {{ end }}
+</article>
+
+{{ end }}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{- /* Title with sensible separator and home-page fallback. */ -}}
+  <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
+
+  {{- /* Description fallback chain: page description → summary → site default.
+        Using `or` is cleaner than nested if/else because empty strings are falsy. */ -}}
+  {{- $description := or .Description (.Summary | plainify | truncate 160) .Site.Params.description -}}
+  <meta name="description" content="{{ $description }}">
+
+  {{- /* Canonical URL — useful when a page is reachable through multiple paths. */ -}}
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  {{- /* Theme color for mobile browser chrome. Matches the warm palette
+        in style.css; per-color-scheme so dark mode looks right too. */ -}}
+  <meta name="theme-color" content="#f9f8f6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c0a09" media="(prefers-color-scheme: dark)">
+
+  {{- /* OpenGraph / Twitter Card */ -}}
+  <meta property="og:title"       content="{{ .Title | default .Site.Title }}">
+  <meta property="og:type"        content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url"         content="{{ .Permalink }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:site_name"   content="{{ .Site.Title }}">
+  <meta property="og:locale"      content="{{ replace .Lang "-" "_" }}">
+  <meta name="twitter:card"       content="summary">
+
+  {{- /* RSS / Atom alternate links */ -}}
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end }}
+
+  {{- /* Theme CSS */ -}}
+  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+
+  {{- /* Hreflang for multilingual SEO.
+        Lists every translated version of this page plus the home pages. */ -}}
+  {{ if .IsTranslated }}
+    {{ range .AllTranslations }}
+      <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+    {{ end }}
+    <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+  {{ end }}
+  {{ range $.Site.Home.AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+
+  {{- /* Structured data — JSON-LD */ -}}
+  {{ partial "jsonld.html" . }}
+</head>
+<body>
+  <div class="site-wrapper">
+    {{ partial "header.html" . }}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
+</body>
+</html>

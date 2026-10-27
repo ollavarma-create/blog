@@ -1,0 +1,40 @@
+{{- /*
+  Previous / Next post navigation.
+
+  Hugo's default sort order for sections is date-descending (newest first),
+  which means:
+    .PrevInSection points to the page above current → the newer one
+    .NextInSection points to the page below current → the older one
+
+  Most readers expect "Previous" to mean "older" and "Next" to mean "newer"
+  (chronological reading order), so we deliberately swap the mapping.
+
+  Renders nothing if both neighbours are missing (single-post sections).
+*/ -}}
+
+{{- $older := .NextInSection -}}
+{{- $newer := .PrevInSection -}}
+
+{{- if or $older $newer }}
+<nav class="post-nav" aria-label="{{ i18n "previousPost" }} / {{ i18n "nextPost" }}">
+
+  {{- with $older }}
+    <a class="post-nav__link post-nav__link--prev" href="{{ .RelPermalink }}" rel="prev">
+      <span class="post-nav__direction">← {{ i18n "previousPost" }}</span>
+      <span class="post-nav__title">{{ .Title }}</span>
+    </a>
+  {{- else }}
+    <span class="post-nav__placeholder" aria-hidden="true"></span>
+  {{- end }}
+
+  {{- with $newer }}
+    <a class="post-nav__link post-nav__link--next" href="{{ .RelPermalink }}" rel="next">
+      <span class="post-nav__direction">{{ i18n "nextPost" }} →</span>
+      <span class="post-nav__title">{{ .Title }}</span>
+    </a>
+  {{- else }}
+    <span class="post-nav__placeholder" aria-hidden="true"></span>
+  {{- end }}
+
+</nav>
+{{- end -}}

@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <p>
+    &copy; {{ now.Year }} {{ .Site.Params.author }}
+    {{ with .Site.Params.subtitle }}
+      <span class="site-footer__sep" aria-hidden="true">·</span>{{ . }}
+    {{ end }}
+    <br>
+    {{ i18n "poweredBy" }}
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
+    <span class="site-footer__sep" aria-hidden="true">·</span>
+    {{ i18n "hostedOn" }}
+    <a href="https://codeberg.org/{{ .Site.Params.codebergUser }}" target="_blank" rel="noopener">Codeberg</a>
+  </p>
+</footer>

@@ -1,0 +1,117 @@
+##
+## Jari Hiltunen — hiltsu.codeberg.page
+## Hugo configuration with Finnish + English multilingual support.
+##
+## Note on i18n: UI strings (button labels, "published", etc.) are now
+## translated via i18n/{fi,en}.toml using {{ i18n "key" }} in templates.
+## Site-level metadata (description, author, links) stays in params here
+## because it is used in meta tags, OpenGraph, and JSON-LD.
+##
+
+baseURL                        = "https://hiltsu.codeberg.page/"
+title                          = "Jari Hiltunen"
+theme                          = "hiltsu-clean"
+defaultContentLanguage         = "fi"
+defaultContentLanguageInSubdir = true
+enableRobotsTXT                = true
+
+# Pagination — new syntax (replaces the deprecated top-level `paginate`).
+# Required from Hugo 0.128+ — silences a deprecation warning on every build.
+[pagination]
+  pagerSize = 10
+
+# Syntax highlighting for code blocks
+[markup]
+  [markup.highlight]
+    style     = "dracula"
+    lineNos   = false
+    noClasses = true
+  [markup.goldmark.renderer]
+    unsafe    = true
+
+# Related posts — used by partials/related-posts.html.
+# Threshold 60 = moderately related; raise to 80 for stricter matches.
+[related]
+  includeNewer = true
+  threshold    = 60
+  toLower      = true
+
+  [[related.indices]]
+    name   = "tags"
+    weight = 100
+  [[related.indices]]
+    name   = "date"
+    weight = 10
+
+# RSS / Atom feed
+[outputs]
+  home    = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# --- Languages ----------------------------------------------------------
+
+[languages]
+
+  [languages.fi]
+    languageName = "Suomi"
+    languageCode = "fi"
+    contentDir   = "content/fi"
+    weight       = 1
+    title        = "Jari Hiltunen"
+
+    [languages.fi.params]
+      # Used in meta description, OpenGraph, and JSON-LD fallback.
+      description = "Embedded-järjestelmät, IoT, tekoäly, innovointi ja muita pohdintoja."
+
+    [[languages.fi.menus.main]]
+      name   = "Artikkelit"
+      url    = "/fi/posts/"
+      weight = 1
+    [[languages.fi.menus.main]]
+      name   = "Tietoa"
+      url    = "/fi/about/"
+      weight = 2
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    contentDir   = "content/en"
+    weight       = 2
+    title        = "Jari Hiltunen"
+
+    [languages.en.params]
+      description = "Embedded systems, IoT, AI, innovation and other reflections."
+
+    [[languages.en.menus.main]]
+      name   = "Posts"
+      url    = "/en/posts/"
+      weight = 1
+    [[languages.en.menus.main]]
+      name   = "About"
+      url    = "/en/about/"
+      weight = 2
+
+# --- Site-wide parameters -----------------------------------------------
+
+[params]
+  author       = "Jari Hiltunen"
+  subtitle     = "OH4CMA — Old and new bloggings"
+  codebergUser = "hiltsu"
+
+  # Profile links shown in the footer.
+  [[params.links]]
+    name = "Codeberg"
+    url  = "https://codeberg.org/hiltsu"
+    icon = "code"
+  [[params.links]]
+    name = "QRZ"
+    url  = "https://www.qrz.com/db/OH4CMA"
+    icon = "radio"
+  [[params.links]]
+    name = "Autodesk Gallery"
+    url  = "https://forums.autodesk.com/t5/user/viewprofilepage/user-id/9651574?tab=gallery"
+    icon = "cube"
+  [[params.links]]
+    name = "Suno"
+    url  = "https://suno.com/@fugoogle"
+    icon = "music"

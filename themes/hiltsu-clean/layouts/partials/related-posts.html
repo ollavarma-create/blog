@@ -1,0 +1,38 @@
+{{- /*
+  Related posts via Hugo's built-in Related Content feature.
+  Configured in hugo.toml under the [related] block.
+
+  Filtering rules:
+    - Same language only (avoid suggesting English posts on Finnish pages
+      and vice versa). Hugo's Related already scopes to the current site,
+      but we add a defensive filter for clarity.
+    - Skip the current page itself.
+    - Cap at 3 results to keep the footer focused.
+
+  Renders nothing if there are no related pages.
+*/ -}}
+
+{{- $currentPage := . -}}
+{{- $candidates := where .Site.RegularPages "Lang" .Lang -}}
+{{- $candidates = where $candidates "Permalink" "ne" $currentPage.Permalink -}}
+{{- $related := first 3 ($candidates.Related $currentPage) -}}
+
+{{- with $related }}
+<section class="related-posts" aria-labelledby="related-heading">
+  <h2 id="related-heading" class="related-posts__heading">
+    {{ i18n "relatedPosts" }}
+  </h2>
+  <ul class="related-posts__list">
+    {{ range . }}
+    <li class="related-posts__item">
+      <a class="related-posts__link" href="{{ .RelPermalink }}">
+        <span class="related-posts__title">{{ .Title }}</span>
+        <time class="related-posts__date" datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date.Format "2.1.2006" }}
+        </time>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{- end -}}

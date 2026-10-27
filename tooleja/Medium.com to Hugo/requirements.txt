@@ -1,0 +1,7 @@
+# medium_to_hugo – Python dependencies
+# Install with: pip install -r requirements.txt
+
+beautifulsoup4==4.14.3
+markdownify==1.2.2
+requests==2.33.1
+python-slugify==8.0.4

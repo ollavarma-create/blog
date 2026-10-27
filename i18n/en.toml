@@ -1,0 +1,33 @@
+# English UI strings.
+# Hugo loads this automatically from /i18n/en.toml.
+# Templates use it via {{ i18n "key" }}.
+
+[publishedOn]
+other = "Published"
+
+[readMore]
+other = "Read more"
+
+[tagLabel]
+other = "Tags"
+
+[allPosts]
+other = "All posts"
+
+[backToHome]
+other = "← Back"
+
+[relatedPosts]
+other = "Related"
+
+[previousPost]
+other = "Previous"
+
+[nextPost]
+other = "Next"
+
+[poweredBy]
+other = "Powered by"
+
+[hostedOn]
+other = "Hosted on"

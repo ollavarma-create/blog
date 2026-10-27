@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+{{ with .OutputFormats.Get "sitemap" }}Sitemap: {{ .Permalink | absURL }}{{ end }}

@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="site-brand">
+    <a class="site-brand__name" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+    {{ with .Site.Params.subtitle }}
+    <span class="site-brand__subtitle">{{ . }}</span>
+    {{ end }}
+  </div>
+
+  <nav class="site-nav" aria-label="Main">
+    {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+
+    {{- /* Language switcher.
+          When the current page is translated, link directly to its translations.
+          Otherwise, fall back to the home page in the other language(s). */ -}}
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+        <a class="lang-switch" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+      {{ end }}
+    {{ else }}
+      {{ range $.Site.Home.Translations }}
+        <a class="lang-switch" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+      {{ end }}
+    {{ end }}
+  </nav>
+</header>

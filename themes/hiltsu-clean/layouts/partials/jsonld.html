@@ -1,0 +1,37 @@
+{{- /*
+  JSON-LD structured data for individual blog posts.
+  Search engines (Google, Bing, DuckDuckGo) use this to render rich results.
+  Only emitted on regular pages — list/section pages do not need it.
+*/ -}}
+{{- if .IsPage -}}
+{{- $description := or .Description (.Summary | plainify | truncate 160) .Site.Params.description -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ $description | jsonify }},
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{- with .Lastmod }}
+  "dateModified": "{{ .Format "2006-01-02T15:04:05Z07:00" }}",
+  {{- end }}
+  "inLanguage": {{ .Lang | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ .Site.Params.author | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Title | jsonify }}
+  },
+  "url": {{ .Permalink | jsonify }},
+  {{- with .Params.tags }}
+  "keywords": {{ . | jsonify }},
+  {{- end }}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  }
+}
+</script>
+{{- end -}}
