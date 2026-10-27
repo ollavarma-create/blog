@@ -25,6 +25,3 @@ Thumbs.db
 *.log
 server/
 
-# Content stays local — not versioned in main
-content/
-
