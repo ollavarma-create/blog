@@ -82,21 +82,3 @@ Kun kirjoitan tätä, en enää kysy "onko tekoäly ihmisen kaltainen". Kysyn: "
 Tekoäly ei tee meistä vähemmän ihmisiä. Se tekee ihmisyydestä näkyvämmän -- ja siten myös haavoittuvamman. Rajapinta ei ole vihollinen. Se on peili, joka ei kaunistele. Se ei myöskään pelasta. Se vain kysyy: mitä haluat vahvistaa? Mitä jätät rapistumaan? Mitä valitset harjoittaa?
 
 Tekoäly ei siis uhkaa ihmisyyttä, vaan tekee näkyväksi sen, mikä ihmisyydessä on harjoitusta eikä automaatiota. Vastaus ei ole teknologinen. Se on fenomenologinen. Se on ruumiissa. Se on valinnassa. Se on siinä, että jatkan kirjoittamista, vaikka tiedän, että kone voisi tehdä sen nopeammin. Koska juuri tuo "turha" liike on se, joka pitää ihmisenä olemisen elossa.
-
-**Jatkolukemista**
-
-Jos tämä essee herätti ajatuksia, voit halutessasi tutustua myös muihin kirjoituksiini:
-
-1. **Opinnäytetyöni:** [*Kokemusasiantuntijat verkossa hanke -verkkovuorovaiku tuksen käsikirja kokemusasiantuntijoille*](https://urn.fi/URN:NBN:fi:amk-2023051510710)
-
-2. **Artikkeli:** [Nuorten pahoinvointi Suomessa -- tilastot, vertailut ja vaikutukset tulevaisuuteen sekä omakohtaisia kokemuksia kriisiauttamisesta](https://hiltsu.codeberg.page/fi/posts/nuorten-pahoinvointi-suomessa-tilastot-vertailut-tulevaisuus/)
-
-3. **Artikkeli:** [AI:n aikakauden osaaminen: miksi konvergenssi kuolee ja divergenssi hallitsee?](https://hiltsu.codeberg.page/fi/posts/ai-n-aikakauden-osaaminen-miksi-konvergenssi-kuolee-ja-divergenssi-hallitsee/)
-
-4. **Artikkeli:** [Eksistentiaalinen tyhjiö digitaalisella aikakaudella](https://hiltsu.codeberg.page/fi/posts/eksistentiaalinen-tyhji%C3%B6-digitaalisella-aikakaudella/)
-
-5. **Artikkeli:** [Use it or Lose it -- Ihmisen, tekoälyn ja evoluution risteyskohdassa](https://hiltsu.codeberg.page/fi/posts/use-it-or-lose-it-tekoaly-ja-evoluutio/)
-
-6. **Artikkeli:** [Matti Mallisen täydellinen kupla](https://hiltsu.codeberg.page/fi/posts/matti-mallisen-t%C3%A4ydellinen-kupla/)
-
-7. **Artikkeli**: [Ajattelumallien synteesi kompleksisten yhteiskuntatehtävien ratkaisussa](https://hiltsu.codeberg.page/fi/posts/ajattelumallit/)

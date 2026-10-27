@@ -81,21 +81,3 @@ As I write this, I no longer ask, “Is AI human-like?” Instead, I ask: “Wha
 AI does not make us less human. It makes humanity more visible — and therefore also more vulnerable. The interface is not the enemy. It is a mirror that does not flatter. Nor does it save us. It simply asks: what do you wish to strengthen? What are you willing to let decay? What do you choose to practice?
 
 AI does not threaten humanity; rather, it reveals what in humanity is practice rather than automation. The answer is not technological. It is phenomenological. It is in the body. It is in choice. It is in the fact that I continue writing even though I know a machine could do it faster. Because that seemingly “unnecessary” act is precisely what keeps being human alive.
-
-**Further Reading**
-
-If this essay sparked thoughts, you may also wish to explore some of my other writings:
-
-1. **My Thesis:** [*Experience Experts Online Project – A Handbook of Online Interaction for Experience Experts*](https://urn.fi/URN:NBN:fi:amk-2023051510710)
-
-2. **Article:** [Youth Mental Distress in Finland — Statistics, Comparisons, Future Impacts, and Personal Experiences from Crisis Support Work](https://hiltsu.codeberg.page/fi/posts/nuorten-pahoinvointi-suomessa-tilastot-vertailut-tulevaisuus/)
-
-3. **Article:** [Competence in the Age of AI: Why Convergence Dies and Divergence Dominates](https://hiltsu.codeberg.page/fi/posts/ai-n-aikakauden-osaaminen-miksi-konvergenssi-kuolee-ja-divergenssi-hallitsee/)
-
-4. **Article:** [Existential Emptiness in the Digital Age](https://hiltsu.codeberg.page/fi/posts/eksistentiaalinen-tyhji%C3%B6-digitaalisella-aikakaudella/)
-
-5. **Article:** [Use It or Lose It — At the Intersection of Humanity, AI, and Evolution](https://hiltsu.codeberg.page/fi/posts/use-it-or-lose-it-tekoaly-ja-evoluutio/)
-
-6. **Article:** [The Perfect Bubble of Matti Mallinen](https://hiltsu.codeberg.page/fi/posts/matti-mallisen-t%C3%A4ydellinen-kupla/)
-
-7. **Article:** [The Synthesis of Thinking Models in Solving Complex Societal Challenges](https://hiltsu.codeberg.page/fi/posts/ajattelumallit/)
