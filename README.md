@@ -1,7 +1,8 @@
-# hiltsu.codeberg.page
+# ollavarma-create blog
 
-Personal blog by Jari Hiltunen (OH4CMA).  
-Built with [Hugo](https://gohugo.io), hosted on [Codeberg Pages](https://codeberg.page).
+Built with [Hugo](https://gohugo.io), hosted on [GitHub Pages](https://pages.github.com/).
+
+This repository contains the source code for the blog. The site is automatically built and deployed via GitHub Actions whenever changes are pushed to the `main` branch.
 
 ## Quick start
 
@@ -21,8 +22,8 @@ brew install hugo
 ### 2. Local development
 
 ```bash
-git clone https://codeberg.org/hiltsu/pages.git
-cd pages
+git clone https://github.com/ollavarma-create/blog.git
+cd blog
 hugo server -D
 # Open http://localhost:1313
 ```
@@ -30,7 +31,6 @@ hugo server -D
 ### 3. Create a new post
 
 Hugo leaf bundles keep content and images together:
-
 ```bash
 # Finnish post
 mkdir -p content/fi/posts/my-new-post
@@ -41,17 +41,21 @@ mkdir -p content/en/posts/my-new-post
 hugo new content/en/posts/my-new-post/index.md
 ```
 
-Edit the generated file. Remove `draft: true` when ready to publish.
+Edit the generated file. Remove draft: true when ready to publish.
 
-**Directory naming rules** — Hugo slugifies directory names to URLs:
-- Use lowercase ASCII and hyphens: `my-post-title`
-- No spaces, em-dashes (—), smart quotes, or parentheses
-- No special characters: ä→a, ö→o, å→a (or keep Finnish as-is for Unicode URLs)
-- Run `./tooleja/slug-check.sh` to audit existing content
+Directory naming rules — Hugo slugifies directory names to URLs:
+
+    Use lowercase ASCII and hyphens: my-post-title
+
+    No spaces, em-dashes (—), smart quotes, or parentheses
+
+    No special characters: ä→a, ö→o, å→a (or keep Finnish as-is for Unicode URLs)
+
+    Run ./tooleja/slug-check.sh to audit existing content
 
 ### 4. Bilingual posts
 
-To link Finnish and English versions, use the same `translationKey` in both files:
+To link Finnish and English versions, use the same translationKey in both files:
 
 ```yaml
 # content/fi/posts/aiheeni/index.md
@@ -65,19 +69,13 @@ Hugo will then show a language switcher on those pages.
 
 ### 5. Deploy
 
-The `deploy.sh` script handles everything in one step:
+Deployment is fully automated via GitHub Actions. To publish changes:
 
 ```bash
-chmod +x deploy.sh   # first time only
-./deploy.sh "Optional commit message"
+git add .
+git commit -m "Add new post: my-topic"
+git push origin main
 ```
-
-It will:
-1. Commit and push source changes to `main`
-2. Build the site with `hugo --minify`
-3. Force-push the built output to the `pages` branch (Codeberg Pages)
-
-Your site will be live at **https://hiltsu.codeberg.page**
 
 ### 6. Importing articles
 
@@ -88,14 +86,15 @@ pandoc -f html -t markdown article.html -o article.md
 ```
 
 Then add front matter and place in the correct content directory. See
-`tooleja/docx2hugo.py` for Word document conversion.
+tooleja/docx2hugo.py for Word document conversion.
+
 
 ## Project structure
 
 ```
 .
 ├── hugo.toml                     # Site configuration + [related] + [pagination]
-├── deploy.sh                     # One-command build & deploy
+├── .github/workflows/            # GitHub Actions deployment workflow
 ├── i18n/
 │   ├── fi.toml                   # Finnish UI strings
 │   └── en.toml                   # English UI strings
