@@ -61,7 +61,7 @@ Note: The dock's firmware (1.3.00) and the laptop's BIOS were up to date, and th
 ## The Fix
 
 Regenerate the initramfs while the USB4 dock is connected to the laptop.
-```
+
 ```bash
 sudo dracut --regenerate-all --force
 ```
