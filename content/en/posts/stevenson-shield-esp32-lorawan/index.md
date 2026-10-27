@@ -14,7 +14,7 @@ tags:
 - stevenson-shield
 ---
 
-This is the **enclosure for my ESP32-based LoRaWAN weather station project**. Ultra Low Power electronics, firmware (C++), schematics, and build instructions can be found in the [LoRaWAN repository on Codeberg](https://codeberg.org/hiltsu/lorawan/src/branch/main).
+This is the **enclosure for my ESP32-based LoRaWAN weather station project**. Ultra Low Power electronics, firmware (C++), schematics, and build instructions can be found in the [LoRaWAN repository](https://github.com/ollavarma-create/lorawan).
 
 This post focuses on **mechanical design**: a Stevenson shield for sensors, designed in Fusion360 for FDM 3D printing.
 
@@ -27,7 +27,7 @@ A Stevenson shield (or Stevenson screen) is a standard meteorological enclosure 
 
 ## Electronics
 
-The electronics are described in more detail in the [LoRaWAN repository](https://codeberg.org/hiltsu/lorawan/src/branch/main). In short:
+The electronics are described in more detail in the [LoRaWAN repository](https://github.com/ollavarma-create/lorawan). In short:
 
 * **MCU:** ESP32-WROOM32 SMD in ultra-low-power (ULP) mode
 * **Radio:** RFM95W 868 MHz LoRa module
@@ -35,10 +35,10 @@ The electronics are described in more detail in the [LoRaWAN repository](https:/
 * **Power:** CN3791 MPPT solar charger controller + NCR18650 cell + 6V 133×73 mm mono solar panel
 * **Regulator:** HT7833 3.3V LDO
 
-[![Schematic](https://codeberg.org/hiltsu/lorawan/raw/branch/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)](https://codeberg.org/hiltsu/lorawan/src/branch/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)
+[![Schematic](https://github.com/ollavarma-create/lorawan/tree/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)](https://codeberg.org/hiltsu/lorawan/src/branch/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)
 *KiCad schematic — ESP32 ULP + RFM95W + BME280, Rev 3, 28 Apr 2026*
 
-[![PCB prototype](https://codeberg.org/hiltsu/lorawan/raw/branch/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)](https://codeberg.org/hiltsu/lorawan/src/branch/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)
+[![PCB prototype](https://github.com/ollavarma-create/lorawan/tree/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)](https://codeberg.org/hiltsu/lorawan/src/branch/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)
 *First prototype PCB*
 
 ![Caution about CN3791 MPPT Adjustable Solar Charger Panel 3.7V 18650 Lithium Battery Charger Board](caution.JPG)
@@ -295,7 +295,7 @@ The Fusion360 design file (F3D) is available here:
 From there, you can export STL files for the parts you want and slice them in your own slicer. All parts are modeled in print orientation — no need to rotate them.
 
 Pre-generated STL files are also available here:
-**[StevensonShield_ESP32_BME280_RFM95W_18650](https://codeberg.org/hiltsu/fusion360-piirrokset-3D-tulostusobjektit/src/branch/main/StevensonShield_ESP32_BME280_RFM95W_18650)**
+**[StevensonShield_ESP32_BME280_RFM95W_18650](https://www.printables.com/model/1851996-parametric-stevenson-shield-for-esp32-weather-stat)**
 
 ## License
 

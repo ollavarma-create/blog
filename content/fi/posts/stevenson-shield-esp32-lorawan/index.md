@@ -13,7 +13,7 @@ tags:
   - petg
   - stevenson-suoja
 ---
-Tämä on **ESP32-pohjaisen LoRaWAN-sääasemani projektin kotelointi**. Ultra Low Power elektroniikka, laiteohjelmisto (C++), kytkentäkuvat ja rakennusohjeet löytyvät [lorawan-repositoriosta Codebergissä](https://codeberg.org/hiltsu/lorawan/src/branch/main). 
+Tämä on **ESP32-pohjaisen LoRaWAN-sääasemani projektin kotelointi**. Ultra Low Power elektroniikka, laiteohjelmisto (C++), kytkentäkuvat ja rakennusohjeet löytyvät [lorawan-repositoriosta Githubista](https://codeberg.org/hiltsu/lorawan/src/branch/main). 
 
 Tässä postauksessa **käsitellään mekaanista suunnittelua**: Stevenson-suoja sensoreille, joka on suunniteltu Fusion360:llä FDM-tulostusta varten.
 

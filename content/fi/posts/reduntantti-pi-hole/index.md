@@ -19,6 +19,8 @@ Pi-hole on avoimen lähdekoodin DNS-palvelin (DNS sinkhole), joka toimii lähive
 - **Nopeus:** Verkkosivut latautuvat nopeammin, kun raskaat mainosverkostot jäävät kokonaan latautumatta.
 - **Tietosuoja:** Estää telemetrian ja seurannan lähettämisen kolmansille osapuolille.
 
+![PI-hole desktop](pi-hole-desktop.png)
+
 ## Turvalliset ja suodatetut DNS-palvelimet (Quad9, Cloudflare jne.)
 
 Pi-hole itsessään ei tiedä, mitä internetissä on – se tarvitsee "upstream" DNS-palvelimen, jolle se välittää ne kyselyt, joita se ei itse estä. Vaikka käyttäisitkin operaattorisi oletus-DNS:ää, on suositeltavaa vaihtaa se tietoturvalliseen ja yksityisyyttä kunnioittavaan palveluun.
