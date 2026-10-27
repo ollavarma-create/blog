@@ -8,7 +8,7 @@
 ## because it is used in meta tags, OpenGraph, and JSON-LD.
 ##
 
-baseURL                        = "https://hiltsu.codeberg.page/"
+baseURL                        = "https://ollavarma-create.github.io/blog/"
 title                          = "Jari Hiltunen"
 theme                          = "hiltsu-clean"
 defaultContentLanguage         = "fi"
@@ -100,18 +100,7 @@ enableRobotsTXT                = true
 
   # Profile links shown in the footer.
   [[params.links]]
-    name = "Codeberg"
-    url  = "https://codeberg.org/hiltsu"
-    icon = "code"
-  [[params.links]]
     name = "QRZ"
     url  = "https://www.qrz.com/db/OH4CMA"
     icon = "radio"
-  [[params.links]]
-    name = "Autodesk Gallery"
-    url  = "https://forums.autodesk.com/t5/user/viewprofilepage/user-id/9651574?tab=gallery"
-    icon = "cube"
-  [[params.links]]
-    name = "Suno"
-    url  = "https://suno.com/@fugoogle"
-    icon = "music"
+ 
