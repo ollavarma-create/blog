@@ -1,5 +1,5 @@
 ---
-title: "Deepseeking Psykoosi"
+title: "DeepSeekin Psykoosi"
 date: 2026-10-28T09:53:38+02:00
 draft: false
 tags: [deepseek, konfabulointi, psykologia, empatia, bugit, sekoamiset, fenomenologia, toistuva-virhe, ihmisen-ja-koneen-raja]
