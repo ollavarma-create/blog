@@ -16,11 +16,11 @@
           Otherwise, fall back to the home page in the other language(s). */ -}}
     {{ if .IsTranslated }}
       {{ range .Translations }}
-        <a class="lang-switch" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+        <a class="lang-switch" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}">{{ .Language.Label }}</a>
       {{ end }}
     {{ else }}
       {{ range $.Site.Home.Translations }}
-        <a class="lang-switch" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+        <a class="lang-switch" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}">{{ .Language.Label }}</a>
       {{ end }}
     {{ end }}
   </nav>

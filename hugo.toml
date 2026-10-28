@@ -13,6 +13,8 @@ theme                          = "hiltsu-clean"
 defaultContentLanguage         = "fi"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT                = true
+buildDrafts = true
+
 
 # Pagination — new syntax (replaces the deprecated top-level `paginate`).
 # Required from Hugo 0.128+ — silences a deprecation warning on every build.
@@ -21,12 +23,15 @@ enableRobotsTXT                = true
 
 # Syntax highlighting for code blocks
 [markup]
+  [markup.goldmark.parser.attribute]
+    block = true
+    # title = true # Oletuksena päällä, ei tarvitse kirjoittaa
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     style     = "dracula"
     lineNos   = false
     noClasses = true
-  [markup.goldmark.renderer]
-    unsafe    = true
 
 # Related posts — used by partials/related-posts.html.
 # Threshold 60 = moderately related; raise to 80 for stricter matches.
@@ -52,8 +57,8 @@ enableRobotsTXT                = true
 [languages]
 
   [languages.fi]
-    languageName = "Suomi"
-    languageCode = "fi"
+    label = "Suomi"
+    locale = "fi"
     contentDir   = "content/fi"
     weight       = 1
     title        = "Jari Hiltunen"
@@ -72,8 +77,8 @@ enableRobotsTXT                = true
       weight = 2
 
   [languages.en]
-    languageName = "English"
-    languageCode = "en"
+    label = "English"
+    locale = "en"
     contentDir   = "content/en"
     weight       = 2
     title        = "Jari Hiltunen"
@@ -94,7 +99,7 @@ enableRobotsTXT                = true
 
 [params]
   author       = "Jari Hiltunen"
-  subtitle     = "OH4CMA — Old and new bloggings"
+  subtitle     = "A few bloggings from past and future"
   codebergUser = "ollavarma-create"
 
   # Profile links shown in the footer.
