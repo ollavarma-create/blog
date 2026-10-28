@@ -12,7 +12,7 @@ Olen jo pitkään ollut kiinnostunut siitä, miten LinkedInin algoritmit muovaav
 
 ### Poliittinen testi LinkedInissä
 
-Viikonloppuna päätin tehdä pienen kokeen. Linkitin erääseen poliittisesti sävyttyneeseen postaukseen tekemäni kappaleen YouTubesta – otsikolla *“*[*Demarit on vähän kuin kondomi*](https://suno.com/song/ae6ed6c2-d0c5-4955-ade9-98f49573f78b)*”* (lainaus Mikael Jungerilta, ei omani). Tämä avaus sai aikaan odotetun keskustelun, jossa poliittiset taustat tulivat esiin väkevällä tavalla.
+Viikonloppuna päätin tehdä pienen kokeen. Linkitin erääseen poliittisesti sävyttyneeseen postaukseen tekemäni kappaleen YouTubesta. Tämä avaus sai aikaan odotetun keskustelun, jossa poliittiset taustat tulivat esiin väkevällä tavalla.
 
 Yksi kipupisteistä oli Riikka Purran yli 22 vuotta vanha kirjoitus Scripta-blogissa. Toistin kommentissani, että **oikeusvaltiossa syyttömyysolettama kuuluu kaikille** – ihminen on syytön, kunnes oikeus toisin toteaa. Tämä ajatus sai osan keskustelijoista näkemään punaista. Vasemmistosta nousi vahva viesti: tietyissä aiheissa – kuten rasismissa – leimaksi riittää vanhat anonyymit kirjoitukset, vaikka rikosoikeudellista näyttöä ei olisi.
 

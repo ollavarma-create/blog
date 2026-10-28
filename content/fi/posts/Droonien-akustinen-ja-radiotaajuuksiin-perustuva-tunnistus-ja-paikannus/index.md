@@ -163,15 +163,12 @@ Esimerkit, kuten Yhdysvaltain NSA:n PRISM-ohjelma 1, korostavat joukkovalvonnan 
 -   **Viitekehys ja koulutus:** Perustetaan virallinen yhteistyökehys, jossa on selkeät operatiiviset protokollat, kattavat oikeudelliset ohjeet ja perusteelliset koulutusohjelmat kansalaisvapaaehtoisille. Mallina voidaan käyttää AMARS:n ja RACES:n onnistuneita organisaatiomalleja, jotta voidaan varmistaa sekä datan laatu että operatiivinen turvallisuus.
     
 
-* * *
 
 ## Yhteenveto
 
 Passiivinen tutka, joka on saumattomasti integroitu akustiseen ja RF-pohjaiseen monianturifuusioon, tarjoaa houkuttelevan ja kustannustehokkaan ratkaisun kansallisen puolustuskyvyn parantamiseksi ilmauhkia vastaan. Tämä lähestymistapa ei ole vain tekninen uutuus, vaan strateginen ja filosofinen muutos, joka hyödyntää radioamatöörioperaattorien kaltaisten yhteisöjen luontaista teknistä osaamista ja sitoutumista yleiseen palveluun. WSPRnet-malli osoittaa, että laajamittainen, hajautettu verkosto edullisia sensoreita voi tuottaa arvokasta tiedustelutietoa. Vaikka siviilipuolen UTM- ja etätunnistusjärjestelmät tarjoavat viitekehyksen laillisen drooniliikenteen hallintaan, ehdotettu passiivinen puolustusverkosto tarjoaa kriittisen, ei-yhteistyöhaluisen vastatiedustelutason niitä uhkia vastaan, jotka jäävät tämän yhteistyöekosysteemin ulkopuolelle. Ratkaisemalla tekniset haasteet innovatiivisilla tavoilla, kuten ulkoisilla SDR-sovittimilla ja sidotuilla drooneilla, ja käsittelemällä ennakoivasti oikeudellisia ja eettisiä kysymyksiä vankoin tietosuojakeinoin, on mahdollista rakentaa vapaaehtoinen maanpuolustusverkosto. Tämä aloite ei ainoastaan vahvista kansallista turvallisuutta, vaan myös antaa kansalaisille mahdollisuuden osallistua merkitykselliseen rooliin oman resilienssinsä ja puolustuksensa eteen, mikä edustaa merkittävää ja tehokasta kehitystä pitkässä perinteessä.
 
-* * *
 
-OH-HVO kuvattuna QT:H:ni päällä. Ei drone, mutta lentää usein ilman transponderia.
 
 ### Lähdeartikkelit
 

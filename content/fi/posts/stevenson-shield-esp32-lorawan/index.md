@@ -13,7 +13,7 @@ tags:
   - petg
   - stevenson-suoja
 ---
-Tämä on **ESP32-pohjaisen LoRaWAN-sääasemani projektin kotelointi**. Ultra Low Power elektroniikka, laiteohjelmisto (C++), kytkentäkuvat ja rakennusohjeet löytyvät [lorawan-repositoriosta Githubista](https://codeberg.org/hiltsu/lorawan/src/branch/main). 
+Tämä on **ESP32-pohjaisen LoRaWAN-sääasemani projektin kotelointi**. Ultra Low Power elektroniikka, laiteohjelmisto (C++), kytkentäkuvat ja rakennusohjeet löytyvät [lorawan-repositoriosta Githubista](https://github.com/ollavarma-create/lorawan). 
 
 Tässä postauksessa **käsitellään mekaanista suunnittelua**: Stevenson-suoja sensoreille, joka on suunniteltu Fusion360:llä FDM-tulostusta varten.
 
@@ -26,7 +26,7 @@ Stevenson-suoja (tai Stevenson screen) on meteorologinen vakiorakenne, joka suoj
 
 ## Elektroniikka
 
-Elektroniikka on kuvattu tarkemmin [LoRaWAN-repositoriossa](https://codeberg.org/hiltsu/lorawan/src/branch/main). Lyhyesti:
+Elektroniikka on kuvattu tarkemmin [LoRaWAN-repositoriossa](https://github.com/ollavarma-create/lorawan). Lyhyesti:
 
 - **MCU:** ESP32-WROOM32 SMD ultra-low-power (ULP) -tilassa
 - **Radio:** RFM95W 868 MHz LoRa-moduuli
@@ -34,10 +34,10 @@ Elektroniikka on kuvattu tarkemmin [LoRaWAN-repositoriossa](https://codeberg.org
 - **Virta:** CN3791 MPPT-aurinkosähkölaturin ohjain + NCR18650-kenno + 6V 133×73 mm monoaurinkopaneeli
 - **Regulaattori:** HT7833 3,3V LDO
 
-[![Kytkentäkaavio](https://codeberg.org/hiltsu/lorawan/raw/branch/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)](https://codeberg.org/hiltsu/lorawan/src/branch/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)
+[![Kytkentäkaavio](https://github.com/ollavarma-create/lorawan/blob/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)](https://github.com/ollavarma-create/lorawan/blob/main/ESP32/ULP%20Electrnic%20Design/Schematics.png)
 *KiCad-kytkentäkaavio — ESP32 ULP + RFM95W + BME280, Rev 3, 28.4.2026*
 
-[![PCB-prototyyppi](https://codeberg.org/hiltsu/lorawan/raw/branch/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)](https://codeberg.org/hiltsu/lorawan/src/branch/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)
+[![PCB-prototyyppi](https://github.com/ollavarma-create/lorawan/blob/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)](https://github.com/ollavarma-create/lorawan/blob/main/_images/ESP32_RFM95W_BME280/ESP32ULPFirstProto.JPG)
 *Ensimmäinen prototyyppi-PCB*
 
 ![Varoitus CN3791 MPPT Adjustable Solar Charger Panel 3.7V 18650 Lithium Battery Charger Boardista](caution.JPG)
@@ -275,9 +275,9 @@ Fusion360-suunnittelutiedosto (F3D) on ladattavissa ja katseltavissa osoitteessa
 
 Sieltä voit viedä STL-tiedostot haluamistasi osista ja slicata omalla slicerillasi. Kaikki osat on mallinnettu tulostusasentoon — ei tarvetta kääntää.
 
-Valmiit stl-tiedostot löydät myös täältä 
+Valmiit stl-tiedostot löydät myös Printables.com:sta
 **[StevensonShield_ESP32_BME280_RFM95W_18650](
-https://codeberg.org/hiltsu/fusion360-piirrokset-3D-tulostusobjektit/src/branch/main/StevensonShield_ESP32_BME280_RFM95W_18650)**
+https://www.printables.com/model/1851996-parametric-stevenson-shield-for-esp32-weather-stat)**
 
 
 ## Lisenssi

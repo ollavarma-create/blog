@@ -51,7 +51,6 @@ Impressions = illusions
 
 * * *
 
-[Velvet Resonance](https://suno.com/song/c9ec2f71-46d2-4ea7-a831-14479e9f5a9e)
 
 >* Soft like silk, my voice slid down your spine, Every syllable a fingertip, every pause a sigh. You caught the lyric, then let it drift— But the tremble it left, that’s the permanent gift. Words dissolve like sugar on the tongue, Yet the after-taste lingers, warm and young.
 

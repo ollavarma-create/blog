@@ -6,7 +6,7 @@ tags: ["fusion360", "iot", "gadgets", "3d", "3dprinting", "3ddesign", "hvac", "s
 draft: false
 ---
 
-### From Hobby Chickens to the IoT World — Part 4
+### From Hobby Chickens to the IoT World — Part 4
 
 Most ventilation units, such as the [ILTO 440](https://www.casastore.fi/ilto-440-control-ac), lack monitoring sensors for temperature, humidity, or pressure. Even if some models do include such sensors, they cannot be integrated into [IoT](https://en.wikipedia.org/wiki/Internet_of_things) systems using the MQTT protocol. My idea is to create a sensor case without any screws, allowing the sensor to be installed inside the ventilation unit using a strong neodymium magnet. We will need three identical sensor cases and sensors: one for incoming air, one for outgoing air, and one for the air blown into the rooms. Temperature differences indicate the performance of the heat recovery core in the ventilation unit and can reveal anomalies, such as temperature fluctuations caused by heating the sauna. Humidity differences show how the heat recovery core removes moisture from the outdoor air and whether the ventilation system operates efficiently after activities like sauna use or showering. Pressure differences provide insights into the performance of filters, for example.
 
@@ -14,7 +14,7 @@ Data from the ventilation unit can easily be transferred via [MQTT](https://mqtt
 
 ![1-yZunE6ULMPcWhBGsBL2K1A-2d001540](1-yZunE6ULMPcWhBGsBL2K1A-2d001540.png)
 
-30 day information from the HVAC system
+30 day information from the HVAC system
 
 The following graph shows two days of data, illustrating how the frost protection of the ILTO 440 ventilation unit works. When the incoming air temperature drops below freezing, the intake fan stops to prevent the heat recovery core from freezing. Both temperature and humidity fluctuate as a result.
 
@@ -44,7 +44,7 @@ Let’s start designing in Fusion 360 by creating a new component and attaching 
 
 ![1-4eqKqjGWxh45KDmOpXs8CQ-fe240791](1-4eqKqjGWxh45KDmOpXs8CQ-fe240791.png)
 
-Sketch for the bottom part of the sensor case
+Sketch for the bottom part of the sensor case
 
 #### 🧠 Pro Tip – Link Components to Avoid Mismatches
 
@@ -56,7 +56,7 @@ Next, extrude the sketch to create a 2 mm thick base. In this image, it is shown
 
 ![1-mzqEeFS1Wi7nPOVilpOoOg-0660d2db](1-mzqEeFS1Wi7nPOVilpOoOg-0660d2db.png)
 
-Extruding 2 mm
+Extruding 2 mm
 
 Next, extrude the sketch to create 2 mm thick walls 5 mm upwards. In this step, you can choose “join” differently from the image, or combine the parts together later (if you used New Body like in the image).
 
@@ -68,25 +68,25 @@ Next, create a slot in the base part for the cables. The idea is that the cables
 
 ![1-6NaGrvLq58S7tP6n-H5Imw-82d7f2b0](1-6NaGrvLq58S7tP6n-H5Imw-82d7f2b0.png)
 
-Sketch for the cables exit
+Sketch for the cables exit
 
 Then cut the component 2 mm. With more complex drawings, always open Objects To Cut triangle and check what you are actually cutting!
 
 ![1-A3VAlroK5GFxIel7q5Lpdw-dceeb308](1-A3VAlroK5GFxIel7q5Lpdw-dceeb308.png)
 
-Cutting the cable exit
+Cutting the cable exit
 
 Next extrude 2 mm the neodymium magnet bottom. This could be done in the first step too, but for demonstration purposes I did this separately:
 
 ![1-ofqo37mc2FZjtvFm8DqkXg-bd67b70b](1-ofqo37mc2FZjtvFm8DqkXg-bd67b70b.png)
 
-Extrude magnet base
+Extrude magnet base
 
 After extruding the base for the neodymium magnet, create a new sketch with a 20 mm circle. Use the Constraints tool if needed to center the circle on the first sketch.
 
 ![1-cyGYDAp2wZgL_qsXIDd6bg-216c2a65](1-cyGYDAp2wZgL_qsXIDd6bg-216c2a65.png)
 
-Cut for the magnet
+Cut for the magnet
 
 Next cut with above sketch the bottom -1 mm. This means that your neodymium magnet base thickness is 1 mm.
 
@@ -170,7 +170,7 @@ After printing and cooling, remove supports and check if your design works.
 
 ![1-moXdo8uTEsk_diqO1cLSXw-1f3b6509](1-moXdo8uTEsk_diqO1cLSXw-1f3b6509.jpeg)
 
-3D printed sensor case for BME280 to be installed with a magnet to the HVAC system
+3D printed sensor case for BME280 to be installed with a magnet to the HVAC system
 
 ---
 
@@ -186,6 +186,6 @@ Use **Components** (not separate bodies) for the lid and base. Then use **Joints
 
 As you can see, turning an idea into reality isn’t ultimately very difficult if you understand the process. Hopefully, this simple example will help you move forward with your own projects. It’s also worth remembering that you don’t have to do everything yourself, many platforms share free 3D objects ready for printing.
 
-My 3D Design objects are [here](https://codeberg.org/hiltsu/fusion360-piirrokset-3D-tulostusobjektit).  If you need my [micropython](https://micropython.org/) code for these cadgets, look at my code at Codeberg [here](https://codeberg.org/hiltsu/micropython-for-embedded-systems).
+My 3D Design objects are [here](https://www.printables.com/@Hiltsu_5417140/models).
 
 **Good luck and success with your projects!**

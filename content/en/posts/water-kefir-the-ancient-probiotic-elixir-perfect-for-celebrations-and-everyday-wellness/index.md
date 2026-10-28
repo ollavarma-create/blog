@@ -12,9 +12,6 @@ summary: "In the theoretical background of this thesis literature related to emo
 
 As spring blooms and festive traditions like [*Vappu*](https://www.visitfinland.com/en/product/84faf8f2-4662-491e-bd0d-4db168b552d7/vappu-celebration-of-the-spring-in-helsinki/) (Finnish May Day) approach, many reach for sparkling drinks to toast the season. But what if your celebratory beverage could also nurture your gut health? Enter **water kefir**—a naturally effervescent, probiotic-rich drink with roots stretching back centuries. This "nectar of symbiosis" isn’t just for bees—humans can brew their own version, brimming with benefits.
 
-Bored to read? Listen my songs, they tell the same story: [Brew of the Gut - Water Kefir Song](https://suno.com/song/d2b18390-7f89-4385-a880-daa3288ed986)
-    
-
 *Pétillance Originelle (Original Sparkle) - "Bubbles Born from Nature’s Lab."*
 
 ## Why Do Animals Drink Nectar—And What Should Humans Drink?

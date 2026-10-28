@@ -17,7 +17,7 @@ tags:
 summary: "Tutkimusraportti passiivisesta droonien havainnointijärjestelmästä, joka yhdistää SDR-, WiFi CSI- ja LoRaWAN-teknologiat sensorifuusion ja koneoppimisen avulla."
 ---
 
-Päivitys 15.7.2025 julkaistuun englanninkieliseen artikkeliini [Passive Radar Systems for Voluntary National Defense: Leveraging Civilian Infrastructure for Enhanced Situational Awareness](https://hiltsu.codeberg.page/en/posts/passive-radar-systems-for-voluntary-national-defense-leveraging-civilian-infrastructure-for-enhanced/) ja [artikkelin suomennokseen](https://hiltsu.codeberg.page/fi/posts/droonien-akustinen-ja-radiotaajuuksiin-perustuva-tunnistus-ja-paikannus/).
+Päivitys 15.7.2025 julkaistuun englanninkieliseen artikkeliini [Passive Radar Systems for Voluntary National Defense: Leveraging Civilian Infrastructure for Enhanced Situational Awareness](https://ollavarma-create.github.io/blog/en/posts/passive-radar-systems-for-voluntary-national-defense-leveraging-civilian-infrastructure-for-enhanced/) ja [artikkelin suomennokseen](https://ollavarma-create.github.io/blog/fi/posts/droonien-akustinen-ja-radiotaajuuksiin-perustuva-tunnistus-ja-paikannus/).
 
 
 # Passiivinen Skywatcher: droonihavaintojärjestelmä siviili-infrastruktuurin, SDR:n ja tekoälyn avulla

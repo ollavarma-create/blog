@@ -6,7 +6,7 @@ tags: ["hvac", "innovation", "esp32", "iot", "lifestory", "bme280", "mqtt", "gra
 draft: false
 ---
 
-### From Hobby Chickens to the IoT World — Part 2
+### From Hobby Chickens to the IoT World — Part 2
 
 I just designed a new sensor case for the [BME280](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) in my [HVAC](https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning) system, and my 3D printer is currently working on the first draft. Now it’s time to write this article…
 
@@ -15,11 +15,8 @@ I am upgrading my home automation IoT systems, which I have developed as a hobby
 - another measures outgoing air to the rooms,  
 - and the third measures ‘bad air’ from the rooms.  
 
-Old sensor cases are available at [Codeberg](https://codeberg.org/hiltsu/fusion360-piirrokset-3D-tulostusobjektit) and MicroPython code at [Codeberg](https://codeberg.org/hiltsu/micropython-for-embedded-systems).
 
-![1-R-3Wd7Vj0GFYT_tsndA6KQ-01cf0459](1-R-3Wd7Vj0GFYT_tsndA6KQ-01cf0459.jpeg)
-
-BME280 sensors inside the HVAC unit
+![BME280 sensors inside the HVAC unit](1-R-3Wd7Vj0GFYT_tsndA6KQ-01cf0459.jpeg)
 
 Let’s look at what information those sensors have sent via the [MQTT](https://mqtt.org/) protocol to [InfluxDB](https://www.influxdata.com/), which I visualise with [Grafana](https://grafana.com/). Grafana also generates email alerts whenever a value falls out of the expected range.
 
@@ -27,15 +24,15 @@ Here are 1‑year, 30‑day and 7‑day views in Grafana:
 
 ![1-PgffA4NEOK7qEofrMEX5nw-92c9c2ca](1-PgffA4NEOK7qEofrMEX5nw-92c9c2ca.png)
 
-One year of sensor data
+One year of sensor data
 
 ![1-uPVa5R4Spi3Os9auUDTHsg-687abf8e](1-uPVa5R4Spi3Os9auUDTHsg-687abf8e.png)
 
-30 days data
+30 days data
 
 ![1-2Vxkl6Uni_u5je7bjBrhFg-57db9759](1-2Vxkl6Uni_u5je7bjBrhFg-57db9759.png)
 
-7 days data
+7 days data
 
 But what can I see from these graphs? **Anomalies!**  
 
@@ -89,4 +86,4 @@ Large particles
 
 ---
 
-In later articles, I will explain the design principles you need to know when creating 3D‑printable objects, such as sensor cases. Following those, I will write additional articles about testing and programming an ESP32 with a WiFi connection to an MQTT broker for IoT applications. This way, you’ll gain an understanding of how I turn my ideas into tangible, fully functional gadgets!
+*In later articles, I will explain the design principles you need to know when creating 3D‑printable objects, such as sensor cases. Following those, I will write additional articles about testing and programming an ESP32 with a WiFi connection to an MQTT broker for IoT applications. This way, you’ll gain an understanding of how I turn my ideas into tangible, fully functional gadgets!*	
