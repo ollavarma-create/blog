@@ -12,15 +12,15 @@ After six months outdoors, the ultra-low-power ESP32 LoRaWAN sensor is still run
 
 I have been transitioning my home automation from self-made asynchronous MicroPython code running mostly on ESP32 MCUs to ESPHome and integrated data in Home Assistant. The MicroPython code sending information over Wi-Fi to an MQTT broker, InfluxDB, and Grafana has been working perfectly since 2016. However, maintaining code, OTA updates, and the power consumption of 2.4 GHz Wi-Fi guided me to seek new approaches, such as Zigbee and LoRaWAN.
 
-I started in December 2025 by purchasing a Raspberry Pi 5 and a Seeed WM1302 HAT. Documentation on how to set up the Raspberry Pi 5 and the WM1302 HAT is available at [GitHub - Raspberry Pi 5 — Dedicated ChirpStack Gateway](https://github.com/ollavarma-create/lorawan/blob/main/Chirpstack/raspberrypi5-chirpstack-dedicated.md) and more in detail at [GitHub - ChirpStack Installation Guide — Raspberry Pi 5 + RAK WM1302](https://github.com/ollavarma-create/lorawan/blob/main/Chirpstack/chirpstack-installation.md ).Note: choose the installation method that best suits your needs. From a maintenance standpoint, Docker might be easiest, but it could cause some hardware-related issues that need to be solved. 
+I started in December 2025 by purchasing a Raspberry Pi 5 and a Seeed WM1302 HAT. Documentation on how to set up the Raspberry Pi 5 and the WM1302 HAT is available at [GitHub - Raspberry Pi 5 — Dedicated ChirpStack Gateway](https://github.com/ollavarma-create/lorawan/blob/main/Chirpstack/raspberrypi5-chirpstack-dedicated.md) and more in detail at [GitHub - ChirpStack Installation Guide — Raspberry Pi 5 + RAK WM1302](https://github.com/ollavarma-create/lorawan/blob/main/Chirpstack/chirpstack-installation.md ). Note: choose the installation method that best suits your needs. From a maintenance standpoint, Docker might be easiest, but it could cause some hardware-related issues that need to be solved. 
 
-Data flowing from ChirpStack can be sent to the MQTT broker, from where Home Assistant can also receive data. Example [GitHub - MQTT Chirpstack Integration — LoRaWAN Data to InfluxDB](https://github.com/ollavarma-create/lorawan/blob/main/Chirpstack/MQTT_Chirpstack_integration.md).
+Data flowing from ChirpStack can be sent to the MQTT broker, from where Home Assistant can also receive data. Example: [GitHub - MQTT Chirpstack Integration — LoRaWAN Data to InfluxDB](https://github.com/ollavarma-create/lorawan/blob/main/Chirpstack/MQTT_Chirpstack_integration.md).
 
 A 3D enclosure design for the Raspberry Pi 5 and WM1302 HAT, including a parametrized Fusion360 drawing, is available at [Printables](https://www.printables.com/model/1852010-raspberry-pi5-case-for-lorawan-1302-hat) and from [Autodesk](https://a360.co/4tKQ2nZ)
 
-Images about the project execution are at [GitHub -LoRaWAN Project — Image Gallery](https://github.com/ollavarma-create/lorawan/blob/main/IMAGES.md)
+Images of the project execution are at [GitHub -LoRaWAN Project — Image Gallery](https://github.com/ollavarma-create/lorawan/blob/main/IMAGES.md)
 
-The root of the LoRaWAN project repository are at [GitHub](https://github.com/ollavarma-create/lorawan)
+The root of the LoRaWAN project repository is at [GitHub](https://github.com/ollavarma-create/lorawan)
 
 ## Ultra-Low-Power Outdoor Sensor Design
 
@@ -30,7 +30,7 @@ The electrical design is simple:
 
 ![Schematics](Schematics.png)
 
-Files for KiCad are available from [GitHub](https://github.com/ollavarma-create/lorawan/tree/main/ESP32/ULP%20Electrnic%20Design) and the PlatformIO code from [GitHub](https://github.com/ollavarma-create/lorawan/tree/main/ESP32/PlatformIO/Temp_Moisture_Pressure) (check the platform.io file and src path for the source codes).
+Files for KiCad are available from [GitHub](https://github.com/ollavarma-create/lorawan/tree/main/ESP32/ULP%20Electrnic%20Design) and the PlatformIO code from [GitHub](https://github.com/ollavarma-create/lorawan/tree/main/ESP32/PlatformIO/Temp_Moisture_Pressure) (check the platform.ini file and src path for the source codes).
 
 From an ultra-low-power design standpoint, it is important to keep the LoRaWAN frame as short as possible. For BME280 sensor accuracy, integer values are sufficient. The LoRaWAN payload format is (4 bytes):
 
@@ -53,8 +53,8 @@ The frame can also be used for downlink, such as setting the ESP32 to OTA update
 
 For more on sensor OTA updates, see [OTA-Updatable ESP32 LoRaWAN Sensor — User Guide](https://github.com/ollavarma-create/lorawan/blob/main/ESP32/PlatformIO/Temp_Moisture_Pressure/OTA-UPDATE-ESP32_RFM95W_BME280.md)
 
-The outdoor sensor Stevenson Shield 3D design and STL-files are available from [Printables](https://www.printables.com/model/1851996-parametric-stevenson-shield-for-esp32-weather-stat) and [Autodesk](https://a360.co/4tpuix3) and
-more in detail at explained at blog article [Stevenson Shield for ESP32 LoRaWAN Weather Station — Parametric 3D-Printed Enclosure](https://ollavarma-create.github.io/blog/en/posts/stevenson-shield-esp32-lorawan/)
+The outdoor sensor Stevenson Shield 3D design and STL files are available from [Printables](https://www.printables.com/model/1851996-parametric-stevenson-shield-for-esp32-weather-stat) and [Autodesk](https://a360.co/4tpuix3), and
+explained in more detail in the blog article [Stevenson Shield for ESP32 LoRaWAN Weather Station — Parametric 3D-Printed Enclosure](https://ollavarma-create.github.io/blog/en/posts/stevenson-shield-esp32-lorawan/)
 
 
 ## Half-Year Checkup for the Ultra-Low-Power Outdoor Sensor
