@@ -10,13 +10,13 @@ translationKey: "air-quality-monitor-esphome"
 
 # Ilmanlaatumittari ESPHomella: mitä opin, kun näyttö ei totellutkaan
 
-Rakensin ESP32-Wroom-32D -alustalle ilmanlaatumittarin, jossa on ILI9341-kosketusnäyttö, MCP9808-lämpötila-anturi, MH-Z19 CO2-anturi ja PMSX003-hiukkasanturi. Tavoite oli yksinkertainen: näyttö, joka herää napautuksesta, näyttää kellon, lämpötilan ja CO2:n sekä tarjoaa kaksi nappulaa Home Assistantin ohjaukseen – ja sammuu itsestään, kun kukaan ei katso.
+Rakensin ESP32-Wroom-32D -alustalle ilmanlaatumittarin, jossa on ILI9341-kosketusnäyttö, MCP9808-lämpötila-anturi, MH-Z19 CO2-anturi ja PMS7003-hiukkasanturi. Tavoite oli yksinkertainen: näyttö, joka herää napautuksesta, näyttää kellon, lämpötilan ja CO2:n sekä tarjoaa kaksi nappulaa Home Assistantin ohjaukseen – ja sammuu itsestään, kun kukaan ei katso.
 
 Laitteen 3D-tulostettava kotelo ja parametrisoitu Fusion360-piirros löytyvät [Printables - Air Quality Monitor Enclosure - Tilted Display Design](https://www.printables.com/model/1861937-air-quality-monitor-enclosure-tilted-display-desig) ja toimiva koodi tämän bloggauksen alimmaisessa osassa.
 
 Viimeisimmät koodin kanssa ilmanlaatumittarin näyttö näyttää tältä:![Ilmanlaatumittari pöydällä](mittari-edesta.jpg)
 
-Ja koska ESPHome-laitteet integroituvat suoraa Home Assistanttiin, ilmanlaatumittarin näytön valoisuutta voi ohjata suoraan Home Assistantista: 
+Ja koska ESPHome-laitteet integroituvat Home Assistanttiin, ilmanlaatumittarin näytön valoisuutta voi ohjata suoraan Home Assistantista: 
 
 ![Valonappula Home Assistantissa](ha-valonappi.png)
 

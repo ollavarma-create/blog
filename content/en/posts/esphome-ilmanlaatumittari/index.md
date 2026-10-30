@@ -10,7 +10,7 @@ translationKey: "air-quality-monitor-esphome"
 
 # Air Quality Monitor with ESPHome: What I Learned When the Display Wouldn't Cooperate
 
-I built an air quality monitor on an ESP32-Wroom-32D platform, featuring an ILI9341 touchscreen, an MCP9808 temperature sensor, an MH-Z19 CO2 sensor, and a PMSX003 particulate matter sensor. The goal was simple: a display that wakes up on a tap, shows the time, temperature, and CO2 levels, offers two buttons to control Home Assistant entities – and turns itself off when no one is looking.
+I built an air quality monitor on an ESP32-Wroom-32D platform, featuring an ILI9341 touchscreen, an MCP9808 temperature sensor, an MH-Z19 CO2 sensor, and a PMS7003 particulate matter sensor. The goal was simple: a display that wakes up on a tap, shows the time, temperature, and CO2 levels, offers two buttons to control Home Assistant entities – and turns itself off when no one is looking.
 
 The 3D-printable enclosure and parametrized Fusion360 design can be found on [Printables - Air Quality Monitor Enclosure - Tilted Display Design](https://www.printables.com/model/1861937-air-quality-monitor-enclosure-tilted-display-desig), and the working code is at the very bottom of this blog post.
 
