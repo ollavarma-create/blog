@@ -12,7 +12,7 @@ Torstaina 29. lokakuuta 2026 Alphabet (Googlen emoyhtiö) teki pörssihistoriaa 
 
 Syy ei ollut mikään mystinen “markkinoiden tunnelma”. Google myönsi itse, että uusi AI Mode / AI Overview syö perinteistä hakua. Keskustelumuotoiset tekoälyvastaukset tuottavat vähemmän mainostuloja kuin vanhat linkkilistat. Samalla yhtiö polttaa rahaa AI-infrastruktuuriin ennätystahtia (yli 50 miljardia dollaria yhdessä kvartaalissa, koko vuoden ohjeistus 195–205 miljardia). Vapaa kassavirta painui reilusti miinukselle.
 
-**Tulos:** yhtiö tippui ulos 4 biljoonan dollarin klubista ja sijoittajat äänestivät jaloillaan.
+**Tulos:** yhtiö tippui ulos noin 4 biljoonan dollarin klubista ja sijoittajat äänestivät jaloillaan.
 
 Ja samaan aikaan kun Wall Street itkee, Google Haku on muuttunut yhä enemmän kaupalliseksi konfabuloijaksi. Se ei enää vain etsi tietoa – se keksii sitä, tiivistää väärin, kääntää surkeasti ja työntää vastauksen suoraan silmille niin, että moni ei edes klikkaa enää alkuperäisiä lähteitä. Julkaisijoiden liikenne on romahtanut, pienyritykset saavat huonoa mainetta AI-yhteenvedoista ja käyttäjä saa usein silkkaa höpöä.
 
@@ -76,7 +76,7 @@ Tämä ei ole yksittäistapaus. AI Overviewt hallusinoivat edelleen merkittävä
 -------
 # Gemini ei ole juuri kehittynyt sitten 09.04.2025
 
-![Geminin mielestä Trump ei ole presidentti](gemini09-05-25.jpg)
+![Gemini ei millään tajunnut huhtikuussa 2025 sitä, että Donald Trump on Yhdysvaltain presidentti – se jopa 'tarkisti tiedot' ja väitti virheellisesti Joe Bidenin olevan edelleen virassa.](gemini09-05-25.jpg)
 
 Gemini ei millään tajunnut huhtikuussa 2025 sitä, että Donald Trump on Yhdysvaltain presidentti. Ei edes Googlattuaan aiheesta. Nyt puolitoista vuotta myöhemmin se keksii suomen kieleen uusia sanoja sokerinvalkaisusta. 
 
