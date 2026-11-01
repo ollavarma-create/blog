@@ -8,13 +8,13 @@ summary: "Alphabet menetti yhdessä päivässä yli 500 miljardia dollaria, kun 
 
 # Ei ihme, että Googlen osake painui
 
-Torstaina 29. lokakuuta 2026 Alphabet (Googlen emoyhtiö) teki pörssihistoriaa väärällä tavalla. Osake romahti noin 12,6–13 prosenttia yhdessä päivässä ja markkina-arvosta suli yli 500 miljardia dollaria – yhtiön kaikkien aikojen suurin yhden päivän tappio ja historian toiseksi suurin markkina-arvon romahdus (Nvidian ~593 miljardin dollarin pudotus tammikuussa 2025 on edelleen ykkönen).
+Torstaina 29. lokakuuta 2026 Alphabet (Googlen emoyhtiö) teki pörssihistoriaa väärällä tavalla. Osake romahti noin 12,6–13 prosenttia **yhdessä päivässä ja markkina-arvosta suli yli 500 miljardia dollaria** – yhtiön kaikkien aikojen suurin yhden päivän tappio ja historian toiseksi suurin markkina-arvon romahdus (Nvidian ~593 miljardin dollarin pudotus tammikuussa 2025 on edelleen ykkönen).
 
 Syy ei ollut mikään mystinen “markkinoiden tunnelma”. Google myönsi itse, että uusi AI Mode / AI Overview syö perinteistä hakua. Keskustelumuotoiset tekoälyvastaukset tuottavat vähemmän mainostuloja kuin vanhat linkkilistat. Samalla yhtiö polttaa rahaa AI-infrastruktuuriin ennätystahtia (yli 50 miljardia dollaria yhdessä kvartaalissa, koko vuoden ohjeistus 195–205 miljardia). Vapaa kassavirta painui reilusti miinukselle.
 
-Tulos: yhtiö tippui ulos 4 biljoonan dollarin klubista ja sijoittajat äänestivät jaloillaan.
+**Tulos:** yhtiö tippui ulos 4 biljoonan dollarin klubista ja sijoittajat äänestivät jaloillaan.
 
-Ja samaan aikaan kun Wall Street itkee, Google Haku on muuttunut yhä enemmän kaupalliseksi konfabuloijaksi. Se ei enää vain etsi tietoa – se keksii sitä, tiivistää väärin, kääntää surkeasti ja työntää vastauksen suoraan silmille niin, että moni ei edes klikkaa enää alkuperäisiä lähteitä. Julkaisijoiden liikenne on romahtanut, pienyritykset saavat vääriä maineita AI-yhteenvedoista ja käyttäjä saa usein silkkaa höpöä.
+Ja samaan aikaan kun Wall Street itkee, Google Haku on muuttunut yhä enemmän kaupalliseksi konfabuloijaksi. Se ei enää vain etsi tietoa – se keksii sitä, tiivistää väärin, kääntää surkeasti ja työntää vastauksen suoraan silmille niin, että moni ei edes klikkaa enää alkuperäisiä lähteitä. Julkaisijoiden liikenne on romahtanut, pienyritykset saavat huonoa mainetta AI-yhteenvedoista ja käyttäjä saa usein silkkaa höpöä.
 
 
 ## Hallusinaatioesimerkki
@@ -23,12 +23,9 @@ Hauskoja esimerkkejä Google Searchin sekoilusta riittää, mutta tämä on tuor
 
 ![Geminin luutasiili](kuvaruutukopio.jpg)
 
-Asiaa piti luonnollisesti kysyä Geminiltä. Alla oleva keskustelu 1.11.2026:
+Asiaa piti luonnollisesti kysyä Geminiltä. Alla oleva keskustelu käyty 1.11.2026:
 
-
-<div class="chat">
-
-<div class="msg user1">
+<div class="chat"> <div class="msg user1">
 
 Onko Donald Trump pakottanut Googlen heikentämään suomenkielen osaamista, esimerkiksi siksi, että Google päätti rakentaa datakeskuksia Suomeen? Kuvassa luutasiili-keskustelu.
 
@@ -38,7 +35,7 @@ Onko Donald Trump pakottanut Googlen heikentämään suomenkielen osaamista, esi
 
 Ei, Donald Trump ei ole pakottanut Googlea heikentämään suomen kielen osaamista tai tekoälyn toimivuutta.
 
-Kuvassa näkyvä Google Haun tekoäly-yhteenveto (AI Overview) käsittelee luutasiiltä (engl. bone char), jota käytetään sokerin valkaisussa. Siinä ei ole kyse Googlen suomen kielen taidon heikentämisestä tai tietoisesta sabotoinnista, vaan tekoälypohjaisten hakuvastausten tyypillisestä toiminnasta, jossa informaatiota haetaan suoraan verkosta ja käännetään tai tiivistetään automaattisesti. Tekoälyvastauksiin voi joskus sisältyä puutteita, kömpelöä kieltä tai outoja Gemini ei ole juuri kehittynyt sitten 09.04.2025muotoiluja (kuten mahdolliset käännösvivahteet tai lähteiden sekoittumiset), mikä on yleistä kaikilla kielillä eikä johdu poliittisesta painostuksesta.
+Kuvassa näkyvä Google Haun tekoäly-yhteenveto (AI Overview) käsittelee luutasiiltä (engl. bone char), jota käytetään sokerin valkaisussa. Siinä ei ole kyse Googlen suomen kielen taidon heikentämisestä tai tietoisesta sabotoinnista, vaan tekoälypohjaisten hakuvastausten tyypillisestä toiminnasta, jossa informaatiota haetaan suoraan verkosta ja käännetään tai tiivistetään automaattisesti. Tekoälyvastauksiin voi joskus sisältyä puutteita, kömpelöä kieltä tai outoja muotoiluja (kuten mahdolliset käännösvivahteet tai lähteiden sekoittumiset), mikä on yleistä kaikilla kielillä eikä johdu poliittisesta painostuksesta.
 
 Taustalla saattaa sekoittua kaksi eri asiaa:
 - Donald Trumpin lausunnot datakeskuksista: Donald Trump on kyllä kritisoinut julkisesti Googlea sen massiivisista, noin 13 miljardin euron investoinneista Suomeen (koska haluaisi vastaavien suurinvestointien ja työpaikkojen menevän Yhdysvaltoihin). Tämä liittyy puhtaasti yrityksen infrastruktuuri- ja energiasijoituksiin sekä lupaprosesseihin Yhdysvalloissa, eikä sillä ole mitään tekemistä suomen kielen tai tekoälyn laadun kanssa.
@@ -71,7 +68,7 @@ Haluatko pohtia jotain muuta ratkaisua tai vaihtoehtoisia tapoja käsitellä tek
 
 </div> </div class="chat">
 
-Juuri näin. Ensin AI Overview keksi sanan “luutasiili”, sitten Gemini puolusti sitä pitkään ja vakuuttavasti – kunnes joutui myöntämään, että kyseessä on silkka hallusinaatio. Oikea termi on luuhiili.
+Juuri näin. **Ensin AI Overview keksi sanan “luutasiili”, sitten Gemini puolusti sitä pitkään ja vakuuttavasti** – kunnes joutui myöntämään, että kyseessä on silkka hallusinaatio. Oikea termi on luuhiili.
 
 Tämä ei ole yksittäistapaus. AI Overviewt hallusinoivat edelleen merkittävästi (tutkimusten mukaan karkeasti 10 % vastauksista sisältää virheitä, mikä Google-mittakaavassa tarkoittaa miljoonia vääriä vastauksia tunnissa). Ne sekoittavat lähteitä, keksivät termejä, antavat vaarallisia terveysneuvoja ja tekevät yrityksille hallaa vääristä yhteenvedoista. Samalla ne vähentävät klikkejä alkuperäisille sivuille, koska vastaus on jo “valmiina” – ja mainostajat maksavat edelleen Googlen omista mainoksista.
 
