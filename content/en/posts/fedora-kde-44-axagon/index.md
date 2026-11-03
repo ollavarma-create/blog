@@ -14,7 +14,9 @@ tags:
 
 ## Introduction
 
-I recently ran into a rather confusing storage problem on my Fedora KDE Plasma 44 system. Copying large files, particularly multi-gigabyte VMware virtual machine files, to an external AXAGON dual-bay drive enclosure would eventually stall.
+I recently ran into a rather confusing storage problem on my Fedora KDE Plasma 44 system. Copying large files, particularly multi-gigabyte VMware virtual machine files, to an external AXAGON dual-bay drive enclosure, the [ADSA-DC SuperSpeed USB DUAL 2.5"/3.5" HDD/SSD DUAL dock](https://www.axagon.eu/en/products/adsa-dc) would eventually stall.
+
+![Toshiba HDD at the dock](toshiba-disc.jpg)
 
 The copy operation typically stopped at around 55%. Dolphin became almost unresponsive, and the entire Plasma desktop felt sluggish or nearly frozen. At first, this looked like a disk performance problem or perhaps a filesystem issue.
 
