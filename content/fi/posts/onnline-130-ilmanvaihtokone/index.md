@@ -28,7 +28,7 @@ Lisäksi anemometrillä tekemieni [ilmamäärämittausteni ja laskelmieni](Ilmam
 |Ilmanvaihtuvuus (tulo)|	~1,15 1/h|	~0,72 1/h|
 |Ilmanvaihtuvuus (poisto)|	~1,31 1/h|	~0,84 1/h|
 
-Sisätilan ilma vaihdetaan normaaliasetuksella yli 2,3 kertaa tunnissa ja poissaoloasetuksella noin 1,5 kertaa tunnissa. Suomen rakentamismääräysten mukainen minimipoisto asunnoille on tyypillisesti 0,35–0,5 1/h. Mittausteni mukaan asennossa 1 poisto on jo ~0,84 1/h eli reilusti yli minimin. Asennossa 2 poisto on ~1,31 1/h, mikä on noin 2,5–3 kertaa minimi. Tämä on selvä yliventilointi, koska sisäilman laatu on pysynyt erinomaisena.
+Sisätilan ilma vaihdetaan normaaliasetuksella yli 2,3 kertaa tunnissa ja poissaoloasetuksella noin 1,5 kertaa tunnissa. Suomen rakentamismääräysten mukainen minimipoisto asunnoille on tyypillisesti 0,35–0,5 1/h. Mittausteni mukaan asennossa 1 poisto on jo ~0,84 1/h eli reilusti yli minimin. Asennossa 2 poisto on ~1,31 1/h, mikä on noin 2,5–3 kertaa minimi. Tämä on selvä yliventilointi, koska sisäilman laatu on pysynyt erinomaisena. Yliventiloinnista seuraa energiahukkaa.
 
 Esimerkiksi lokakuu on tyypillisesti kostea kuukausi. Vuonna 2026 mittausten mukaan olohuoneessa on CO2 tasot olleet alle 800 ppm ja laskeneet noin 500 ppm (vaihtelua selittää henkilömäärä ja filttereiden vaihto IV-koneeseen):
 
@@ -38,7 +38,7 @@ Samoin kosteus on pysynyt koko lokakuun alle 55 prosentissa:
 
 ![Rh olohuoneessa](rh_olohuone.png)
 
-Myös makuuhuoneessa tilanne on ollut hyvä. Piikit ovat hieman yli 800 ppm aamuyön tunteina, ja kosteus on hallinnassa. Käytännössä makuuhuoneessa on pakko käyttää kosteutinta, mistä kirjoitinkin artikkelissa [Yksinkertaisen ilmankostuttimen odottamaton vaikutus: datavetoinen matka](https://ollavarma-create.github.io/blog/fi/posts/humidizer-problem/)
+Käytännössä makuuhuoneessa on pakko käyttää talvikuukausina kosteutinta, mistä kirjoitinkin artikkelissa [Yksinkertaisen ilmankostuttimen odottamaton vaikutus: datavetoinen matka](https://ollavarma-create.github.io/blog/fi/posts/humidizer-problem/)
 
 ![CO2 makuuhuoneessa](co2_makuuhuone.png)
 ![Rh makuuhuoneesssa](rh_makuuhuone.png)
@@ -48,7 +48,7 @@ Koska minulla on paljon dataa Home Assistantissa, InfluxDB:ssä ja Grafana-laske
 ## Dokumentaation puutteen kanssa painiminen
 
 
-Ongelmaksi muodostui se, että [Onnline 130 ohjekirjasta](Onnline130Ohjekirja.pdf) miten säätö on toteutettu. Olohuoneen seinässä on neliportainen kiertokytkin (asennot 1–4). Kytkimen kärjet näkyvät ohjekirjan sivulla 9, ja ne menevät Onnline-yksikön kautta X2-riviliittimeen. Sivulla 11 mainitaan, että Onnline-yksiköstä voi valita kolme puhallinnopeutta kuudestatoista. Missään ei kuitenkaan kerrota, mikä tämä ohjausyksikkö on tai voisiko ohjausta korvata esimerkiksi ESP32:lla ja releistyksellä.
+Ongelmaksi muodostui se, että [Onnline 130 ohjekirjassa](Onnline130Ohjekirja.pdf) ei ole tarkkaan kerrottu sitä miten säätö on toteutettu. Olohuoneen seinässä on neliportainen kiertokytkin (asennot 1–4). Kytkimen kärjet näkyvät ohjekirjan sivulla 9, ja ne menevät Onnline-yksikön kautta X2-riviliittimeen. Sivulla 11 mainitaan, että Onnline-yksiköstä voi valita kolme puhallinnopeutta kuudestatoista. Missään ei kuitenkaan kerrota, mikä tämä ohjausyksikkö on tai voisiko ohjausta korvata esimerkiksi ESP32:lla ja releistyksellä.
 
 Swegonin tuki on pyrkinyt auttamaan parhaansa mukaan, mutta heilläkään ei oikein ole kunnon dokumentaatiota Onnline 130:sta. Mikäli haluaisin vaihtaa koko laitteen, tuen mukaan uudempaa Genius-saneerauskonemallia tullaan myymään vuoden sisällä. Se sopisi samoihin kanavalähtöihin, kun taas muissa konemalleissa joutuisi tekemään kanavamuutoksia.
 
