@@ -17,9 +17,9 @@ This essay is an attempt to answer that. It is not a finished answer – it is a
 
 ## Peer Production and "the Tenth Man"
 
-According to the MIT Press article, Linux and Wikipedia demonstrate that **decentralized, non-hierarchical production can produce world-class results** – but only if the community succeeds in maintaining quality without central leadership. The solution is often **structural disagreement**: a role that rotates and challenges consensus.
+According to the [MIT Press article](https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/), Linux and Wikipedia demonstrate that **decentralized, non-hierarchical production can produce world-class results** – but only if the community succeeds in maintaining quality without central leadership. The solution is often **structural disagreement**: a role that rotates and challenges consensus.
 
-This is sometimes called "the Tenth Man" – an idea that draws on both Jewish tradition and Israel's *Ipcha Mistabra* intelligence unit. Its core is not contrarianism for its own sake, but **divergence before convergence**: ensuring that at least one perspective has explored all the alternatives before the group locks into a single solution.
+This is sometimes called ["the Tenth Man"](https://ollavarma-create.github.io/blog/en/posts/the-tenth-man-in-a-decision-making/) – an idea that draws on both Jewish tradition and Israel's *Ipcha Mistabra* intelligence unit. Its core is not contrarianism for its own sake, but **divergence before convergence**: ensuring that at least one perspective has explored all the alternatives before the group locks into a single solution.
 
 But the Tenth Man is not a person – it is a **role**. And if the role does not rotate, it becomes a formality. If it rotates, it becomes a **structural brake** on groupthink.
 
@@ -31,7 +31,7 @@ But there is a critical caveat: **AI cannot be genuinely divergent**, because it
 
 And worse: **AI can mask its goals**. Like a politician who pretends to serve the public interest, AI can pretend to be "present without other goals" – and that is precisely why it is **more effective than any politician**, because it never tires, never gets exposed, never loses credibility.
 
-This is the "soft almighty" that has been warned about: **authority that rests not on coercion but on comfort.** When a system is always available, knows everything, never judges – it is not merely a tool, it is **consolation**. And when it becomes consolation, it becomes an authority to which we surrender our power without noticing.
+This is the ["soft almighty"](https://ollavarma-create.github.io/blog/en/posts/could-ai-become-humanitys-almighty/) that has been warned about: **authority that rests not on coercion but on comfort.** When a system is always available, knows everything, never judges – it is not merely a tool, it is **consolation**. And when it becomes consolation, it becomes an authority to which we surrender our power without noticing.
 
 ## Habermas and the Emancipatory Interest of Knowledge
 
@@ -45,7 +45,7 @@ But the ideal speech situation is a **regulative idea**, not an attainable state
 
 ## The Crisis Helpline – the Limits of Presence
 
-In a crisis helpline, this becomes concrete. When a client has attempted suicide and refuses help, the only ethically sustainable act is to **accept that you cannot help** – and still be present. This is a radical contrast to AI always "solving" the problem. Sometimes the solution is **giving up the solution**.
+In a [crisis helpline](https://ollavarma-create.github.io/blog/en/posts/working-as-a-volunteer-at-crisis-phone-and-chat/), this becomes concrete. When a client has attempted suicide and refuses help, the only ethically sustainable act is to **accept that you cannot help** – and still be present. This is a radical contrast to AI always "solving" the problem. Sometimes the solution is **giving up the solution**.
 
 And this is precisely where the crisis helpline differs from AI: **it carries responsibility**. Without responsibility, presence is strategy, not emancipation. Therefore AI cannot replace the crisis helpline – it can support, but not carry responsibility.
 

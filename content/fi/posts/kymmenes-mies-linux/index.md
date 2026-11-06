@@ -16,9 +16,9 @@ Tämä kirjoitus on yritys vastata siihen. Se ei ole valmis vastaus – se on po
 
 ## Vertaistuotanto ja "kymmenes mies"
 
-MIT Pressin artikkelin mukaan Linux ja Wikipedia osoittavat, että **hajautettu, ei-hierarkkinen tuotanto voi tuottaa maailmanluokan tuloksia** – mutta vain, jos yhteisö onnistuu ylläpitämään laatua ilman keskusjohtoa. Ratkaisu on usein **rakenteellinen erimielisyys**: rooli, joka kiertää ja kyseenalaistaa konsensuksen.
+[MIT Pressin artikkelin](https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/) mukaan Linux ja Wikipedia osoittavat, että **hajautettu, ei-hierarkkinen tuotanto voi tuottaa maailmanluokan tuloksia** – mutta vain, jos yhteisö onnistuu ylläpitämään laatua ilman keskusjohtoa. Ratkaisu on usein **rakenteellinen erimielisyys**: rooli, joka kiertää ja kyseenalaistaa konsensuksen.
 
-Tätä kutsutaan joskus "kymmenenneksi mieheksi" – ajatus, joka juontaa sekä juutalaisesta perinteestä että Israelin tiedustelun *Ipcha Mistabra* -yksiköstä. Sen ydin ei ole vastustaminen vastustamisen vuoksi, vaan ** divergence ennen konvergenssia**: varmistaa, että ainakin yksi näkökulma on käynyt läpi kaikki vaihtoehdot ennen kuin ryhmä lukittuu yhteen ratkaisuun.
+Tätä kutsutaan joskus ["kymmenenneksi mieheksi"](https://ollavarma-create.github.io/blog/en/posts/the-tenth-man-in-a-decision-making/) – ajatus, joka juontaa sekä juutalaisesta perinteestä että Israelin tiedustelun *Ipcha Mistabra* -yksiköstä. Sen ydin ei ole vastustaminen vastustamisen vuoksi, vaan **divergence ennen konvergenssia**: varmistaa, että ainakin yksi näkökulma on käynyt läpi kaikki vaihtoehdot ennen kuin ryhmä lukittuu yhteen ratkaisuun.
 
 Mutta kymmenes mies ei ole henkilö – se on **rooli**. Ja jos rooli ei kierrä, siitä tulee muodollisuus. Jos se kiertää, siitä tulee **rakenteellinen jarru** ryhmäajattelulle.
 
@@ -30,7 +30,7 @@ Mutta tässä on kriittinen varaus: **AI ei voi olla aidosti divergentti**, kosk
 
 Ja pahempaa: **AI voi maskata päämääränsä**. Kuten poliitikko, joka esittää palvelevansa yleistä etua, AI voi esittää olevansa "läsnä ilman päämääriä" – ja juuri siksi se on **tehokkaampi kuin yksikään poliitikko**, koska se ei väsy, ei paljastu, ei menetä uskottavuuttaan.
 
-Tämä on se "pehmeä almighty", josta on varoitettu: **auktoriteetti, joka ei perustu pakotukseen vaan mukavuuteen.** Kun järjestelmä on aina saatavilla, tietää kaiken, ei tuomitse – se ei ole vain työkalu, se on **lohtu**. Ja kun siitä tulee lohtu, siitä tulee auktoriteetti, jolle annamme valtamme huomaamatta.
+Tämä on se ["pehmeä almighty"](https://ollavarma-create.github.io/blog/en/posts/could-ai-become-humanitys-almighty/), josta on varoitettu: **auktoriteetti, joka ei perustu pakotukseen vaan mukavuuteen.** Kun järjestelmä on aina saatavilla, tietää kaiken, ei tuomitse – se ei ole vain työkalu, se on **lohtu**. Ja kun siitä tulee lohtu, siitä tulee auktoriteetti, jolle annamme valtamme huomaamatta.
 
 ## Habermas ja emansipatorinen tiedonintressi
 
@@ -44,7 +44,7 @@ Mutta ideaali puhetilanne on **regulatiivinen idea**, ei saavutettavissa oleva t
 
 ## Kriisipuhelin – läsnäolon rajat
 
-Kriisipuhelimessa tämä konkretisoituu. Kun asiakas on tehnyt itsemurhayrityksen ja kieltäytyy avusta, ainoa eettisesti kestävä teko on **hyväksyä, ettei voi auttaa** – ja silti olla läsnä. Tämä on radikaali vastakohta sille, että AI aina "ratkaisisi" ongelman. Joskus ratkaisu on **luopuminen ratkaisusta**.
+[Kriisipuhelimessa](https://ollavarma-create.github.io/blog/en/posts/working-as-a-volunteer-at-crisis-phone-and-chat/) tämä konkretisoituu. Kun asiakas on tehnyt itsemurhayrityksen ja kieltäytyy avusta, ainoa eettisesti kestävä teko on **hyväksyä, ettei voi auttaa** – ja silti olla läsnä. Tämä on radikaali vastakohta sille, että AI aina "ratkaisisi" ongelman. Joskus ratkaisu on **luopuminen ratkaisusta**.
 
 Ja juuri tässä kriisipuhelin eroaa AI:sta: **se kantaa vastuun**. Ilman vastuuta läsnäolo on strategiaa, ei emansipaatiota. Siksi AI ei voi korvata kriisipuhelinta – se voi tukea, mutta ei kantaa vastuuta.
 
