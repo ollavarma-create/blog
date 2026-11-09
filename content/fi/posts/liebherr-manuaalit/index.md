@@ -34,4 +34,17 @@ Koska en halua hajottaa laatikkoa repimällä sitä täydellä voimalla tai työ
 
 ![Liebherrin sivujen virhe](virhe.jpg)
 
-Tukipyyntö meni kuitenkin läpi, ja sain yhteydenoton Witt Finlandista, joka lupasi lähettää ohjekirjat. **Se, miten alimman laatikon saa lopulta irti, jää nähtäväksi.**
+Tukipyyntö meni kuitenkin läpi, ja sain yhteydenoton Witt Finlandista, joka lupasi lähettää ohjekirjat ja niin tapahtuikin. Tähän ohjekirjaan on edellä olevaa "huiman älykästä... not" ohjetta parannettu:
+
+![Liebherr ohjekirjan ohje](oikea_ohjekirja.png)
+
+Tässä ohjekirjassa pyydetään vasenta tai oikeaa pidikettä ja vetämään laatikkoa eteenpäin. Ylemmässä vetolaatikossa tämä onnistuu ok, mutta alimmassa ei sitten millään. Alin laatikko liikkuu normaalisti, mutta irti sitä ei oikealta puolelta saa millään. Kuvat selittävät asiaa paremmin:
+
+![Vasen kisko liikkuu taaksepäin](vasen-pidike.jpg)
+
+Oikea jumittava pidike:
+
+![Oikea kisko ei liiku milllään](oikea-pidike.jpg)
+
+
+**Se, miten alimman laatikon saa lopulta irti, jää nähtäväksi.**
