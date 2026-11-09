@@ -38,13 +38,21 @@ Tukipyyntö meni kuitenkin läpi, ja sain yhteydenoton Witt Finlandista, joka lu
 
 ![Liebherr ohjekirjan ohje](oikea_ohjekirja.png)
 
-Tässä ohjekirjassa pyydetään vasenta tai oikeaa pidikettä ja vetämään laatikkoa eteenpäin. Ylemmässä vetolaatikossa tämä onnistuu ok, mutta alimmassa ei sitten millään. Alin laatikko liikkuu normaalisti, mutta irti sitä ei oikealta puolelta saa millään. Kuvat selittävät asiaa paremmin:
+Tässä ohjekirjassa pyydetään nostamaan vasenta tai oikeaa pidikettä ja vetämään laatikkoa eteenpäin. Ylemmässä vetolaatikossa tämä onnistuu ok, mutta alimmassa ei sitten millään. Alin laatikko liikkuu normaalisti edes-takaisin, mutta irti sitä ei oikealta puolelta saa millään. Kuvat selittävät asiaa paremmin:
 
 ![Vasen kisko liikkuu taaksepäin](vasen-pidike.jpg)
 
 Oikea jumittava pidike:
 
 ![Oikea kisko ei liiku milllään](oikea-pidike.jpg)
+
+Ehkä valkoinen kuminen luttero on jotenkin oudosti jumissa. Mitä sitten sarjanumeroon tulee, niin Witt Finland vastasi nopeasti:
+
+>Huollosta tuli viestiä että  tuota lokeroa ei  tarvitse  toki irroittaa nähdäkseen tuotetiedot vaan laitteen näytöltä saa ne haettua mukavammin esiin ja kuvaakin otettua.
+
+ja kas kummaa, todellakin, kun painaa rattaan kuvaa ja kelaa vasemmalle aikansa, saa näkyviin tuotetiedot. WiFi ja Info-valinnoista kuuluu vain "piip" ilmeisesti puuttuvien IoT-moduulien vuoksi. Ehkä tämä ohje voisi olla Liebherrin sivuillakin, olisi säästynyt hieman aikaa ja hermoja.
+
+![Tuotetiedot näytöllä](sarjanumero.jpg)
 
 
 **Se, miten alimman laatikon saa lopulta irti, jää nähtäväksi.**
