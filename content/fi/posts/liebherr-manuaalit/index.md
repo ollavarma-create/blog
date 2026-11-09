@@ -1,6 +1,6 @@
 ---
 title: "Liebherr-jääkaapin suomenkieliset ohjekirjat – sarjanumeron metsästystä ja tautologiaa"
-date: 2026-09-12
+date: 2026-11-09
 draft: false
 tags: ["Liebherr", "jääkaappi", "ohjekirja", "asiakaspalvelu", "tukipyyntö", "palvelut", "sarjanumerot"]
 summary: "Tarina siitä, miten Liebherr-jääkaapin ohjekirjan lataaminen vaatii sarjanumeron, jota ei saa esiin ilman ohjekirjaa."
