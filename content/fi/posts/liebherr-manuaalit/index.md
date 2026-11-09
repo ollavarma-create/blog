@@ -14,7 +14,7 @@ Lähetin 12.9.2026 Liebherrin tukeen seuraavan viestin:
 >
 > Mallinumerolla ei voi ladata mitään, eikä laitteiden mukana tule edes suomenkielistä ohjetta. Onneksi saimme purettua kaapistot ja riittävästi tilaa: 1226 mm + 15 mm sivuille, kuten englanninkielisessä asennusohjeessa vaaditaan. **Teidän olisi korostettava sitä, että kahvattomat mallit eivät mahdu 120 cm:n väliin, ja mahdollistettava asennusoppaiden lataaminen mallinumerolla.**"
 
-Korvaukseksi sain 100 €:n hyvityksen ostoksistani. Laitteet ovat olleet ihan ok, mutta jos haluan ladata ohjekirjan vihdoin ja viimein, tarvitsen sarjanumeron.
+Vastausta en saanut koskaan. Korvaukseksi sain Powerilta 100 €:n hyvityksen ostoksistani. Laitteet ovat olleet ihan ok, mutta jos haluan ladata ohjekirjan, tai ostaa IoT-moduulit vihdoin ja viimein, tarvitsen sarjanumeron.
 
 ## Sarjanumeron etsintää
 
@@ -34,4 +34,4 @@ Koska en halua hajottaa laatikkoa repimällä sitä täydellä voimalla tai työ
 
 ![Liebherrin sivujen virhe](virhe.jpg)
 
-Tukipyyntö meni kuitenkin läpi, ja sain yhteydenoton Witt Finlandista, joka lupasi lähettää ohjekirjat. Se, miten alimman laatikon saa lopulta irti, jää nähtäväksi.
+Tukipyyntö meni kuitenkin läpi, ja sain yhteydenoton Witt Finlandista, joka lupasi lähettää ohjekirjat. **Se, miten alimman laatikon saa lopulta irti, jää nähtäväksi.**
