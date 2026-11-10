@@ -134,33 +134,30 @@ Kun Ouman Trend saadaan toimimaan, seuraava askel on rakentaa ESPHome-integraati
 
 ### Sarjaliikenteen luku ja kirjoitus
 
-Lukeminen:
+**Lukeminen:**
 ```text
 02 81 02 00 <id> <crc>
 ```
-
-02 = STX / aloitusbitti
-81 = komento (luku)
-02 = datan pituus
-00 = ? (kiinteä)
-<id> = mittaus/parametri-ID (esim. 18 = ulkolämpötila)
-<crc> = (0x81 + 0x02 + 0x00 + id) & 0xFF
+- 02 = STX / aloitusbitti
+- 81 = komento (luku)
+- 02 = datan pituus
+- 00 = ? (kiinteä)
+- <id> = mittaus/parametri-ID (esim. 18 = ulkolämpötila)
+- <crc> = (0x81 + 0x02 + 0x00 + id) & 0xFF
 
 Huom! Kyse on yksinkertaisesta tavusummasta, ei esim. CRC-16:sta.
 
-Kirjoitus:
+**Kirjoitus:**
 ```text
 02 82 <len> 00 <id> <data...> <crc>
 ```
-82 = kirjoituskomento
-CRC lasketaan summana tietyistä tavuista.
-
-Vastausviesti esim. 02 <len> <data> <crc>) -> 02 06 00 18 09 8A <crc>:
-- Alkaa aina 02:lla
+- 02 = STX / aloitusbitti
+- 82 = komento (kirjoitus)
 - tavu = datan pituus
-- Lopussa 1-tavuinen CRC (summa tavuista 1…n-1 & 0xFF)
 - Dataosan sisällä on ID + varsinainen arvo
-- Lämpötilat (TYPE_TEMP100) ovat signed 16-bit arvoja, jotka jaetaan 100:lla (esim. 2450 → 24.50 °C)
+- Lopussa 1-tavuinen CRC (summa tavuista 1…n-1 & 0xFF)
+
+Lämpötilat (TYPE_TEMP100) ovat signed 16-bit arvoja, jotka jaetaan 100:lla (esim. 2450 → 24.50 °C)
 
 
 ## EH-203:lle tyypilliset ID:t
@@ -191,11 +188,11 @@ Oletuskommunikaatio EH203:lle RS232-portin kautta:
 - Data bits: 8
 - Parity: None
 - Stop bits: 1
-- Kyselypaketti: 02 81 02 00 <id> <crc>
+- Kyselypaketti: 02 81 02 00 +id +crc
 - CRC: (0x81 + 0x02 + 0x00 + id) & 0xFF
 - Lämpötilat: signed 16-bit / 100.0
 
-Kytkentä ESP32 (tai ESP8266):
+**Kytkentä** ESP32 (tai ESP8266):
 - ESP32 TX → Ouman RX
 - ESP32 RX → Ouman TX
 - GND yhteinen
@@ -204,7 +201,7 @@ Kytkentä ESP32 (tai ESP8266):
 
 ## Esimerkkikoodi ESPHome:lle
 
-Alla oleva koodi toimii sekä ESP32:lle että ESP8266:lle (kaverini testaamana). Erona on se, että ESPHome:n UART-komponentti eroaa alustojen välillä. ESP8266:n UART-komponentissa ei ole read()-metodia samalla tavalla kuin ESP32:lla. Molemmissa voi käyttää read_byte()-metodia.
+Alla oleva koodi toimii sekä ESP32:lle että ESP8266:lle (kaverini testaamana, sillä minä vielä odotan laitteen saapumista postista). Erona on se, että ESPHome:n UART-komponentti eroaa alustojen välillä. ESP8266:n UART-komponentissa ei ole read()-metodia samalla tavalla kuin ESP32:lla. Molemmissa voi käyttää read_byte()-metodia.
 
 **Mitä tarvitset:**
 > - Ouman EH-203 -säädin
@@ -214,6 +211,7 @@ Alla oleva koodi toimii sekä ESP32:lle että ESP8266:lle (kaverini testaamana).
 > - (Valinnainen) USB-sarja-adapteri debuggausta varten
 > - ESPHome jolla käännät seuraavan koodin firmwareksi (bin)
 
+Kopioituasi koodin ESPHomeen, voit säätää Wi-Fi ym. arvoja ESPHome:n vasemman laidan valikoista, kääntää koodin ja asentaa ensimmäisellä kerralla sarjaportin kautta ja myöhemmät päivitykset Over The Air (OTA) mikäli liitit laitteen osaksi kotisi IoT-verkkoa (Wi-Fi).
 
 ```yaml
 esphome:
@@ -369,7 +367,7 @@ sensor:
     name: "LV Venttiili"
     id: hw_valve
     unit_of_measurement: "%"
-    accuracy_decimals: 0
+    accuracy_decimals: 0- Lopussa 1-tavuinen CRC (summa tavuista 1…n-1 & 0xFF)
     state_class: measurement
     update_interval: never
 
