@@ -58,13 +58,13 @@ Lopullinen, kaikki reverse engineering -löydökset sisältävä versio julkaist
 
 ### Lähtötilanne: Ouman EH-203 ja Home Assistant
 
-Kaukolämpökeskukseni on ohjattu Ouman EH-203:lla. Haluan saada Home Assistanttiin enemmän tietoa kaukolämpökeskuksen toiminnasta. EH-203:ssa on RS232/RS485-sarjaportit, mutta lähes kaikissa netistä löytyvissä artikkeleissa oletetaan, että laitteeseen pitää ostaa erillinen Modbus-kortti, jolla sarjaliikenne saadaan Modbus-protokollan mukaiseksi. Tämä on turhaa — laitetta voi lukea ja ohjata myös suoraan sarjaportin kautta ilman Modbus-korttia.
+Kaukolämpökeskukseni on ohjattu Ouman EH-203:lla. Haluan saada [Home Assistanttiin](https://www.home-assistant.io/) enemmän tietoa kaukolämpökeskuksen toiminnasta. EH-203:ssa on RS232/RS485-sarjaportit, mutta lähes kaikissa netistä löytyvissä artikkeleissa oletetaan, että laitteeseen pitää ostaa erillinen Modbus-kortti, jolla sarjaliikenne saadaan [Modbus-protokollan](https://fi.wikipedia.org/wiki/Modbus) mukaiseksi. Tämä on turhaa — laitetta voi lukea ja ohjata myös suoraan sarjaportin kautta ilman Modbus-korttia.
 
 ### Ratkaisu: MAX3232 ja ESPHome
 
-Olen parhaillaan tekemässä ESPHome:lla Ouman EH-203:lle sopivaa ohjausta. Ouman EH-203:a voi lukea suoraan RS-232-portista käyttämällä level shifteriä (MAX3232), eli muuntaa joko ±12 V tai +5 V TTL -tasoinen sarjaliikenne ESP:n UART:n maksimijännitteeseen 3,3 volttiin.
+Olen parhaillaan tekemässä [ESPHome:lla](https://esphome.io/) Ouman EH-203:lle sopivaa ohjausta. Ouman EH-203:a voi lukea suoraan RS-232-portista käyttämällä level shifteriä (MAX3232), eli muuntaa joko ±12 V tai +5 V TTL -tasoinen sarjaliikenne ESP:n UART:n maksimijännitteeseen 3,3 volttiin.
 
-Tässä vaiheessa ESPHome-koodi (alla) toimii jo varsin kattavasti venttiilien ja sensoreiden lukemiseen ja osittaiseen kirjoittamiseen. Koodi pohjautuu kutakuinkin Oumanin sivulta löytyvään `EH203.xml`-tiedostossa oleviin parametreihin, mutta haluan viedä sitä pidemmälle ja debugata, mitä Ouman Trend -sovellus keskustelee EH-203:n kanssa. Julkaisen koodin GitHubiin, kun olen saanut sen täysin valmiiksi.
+Tässä vaiheessa ESPHome-koodi (alla) toimii jo varsin kattavasti venttiilien ja sensoreiden lukemiseen ja osittaiseen kirjoittamiseen. Koodi pohjautuu kutakuinkin [Oumanin downloads -sivulta](https://ouflextool.ouman.net/downloads/DeviceTemplates/Ouman/EH-Controllers/) löytyvään `EH203.xml`-tiedostossa oleviin parametreihin, mutta haluan viedä sitä pidemmälle ja debugata, mitä Ouman Trend -sovellus keskustelee EH-203:n kanssa. Julkaisen koodin GitHubiin, kun olen saanut sen täysin valmiiksi.
 
 ### Laitteen tausta ja Ouman Trend -sovellus
 
@@ -87,7 +87,7 @@ Ratkaisu asennuksen läpimenoon on vaihtaa Explorerin avulla asennusohjelman yht
 Tämän ongelman ratkaisu vaati hieman enemmän debuggaamista. Se onnistuu hyvin Process Monitorilla, josta virhe selviää tarkemmin:
 
 ![Process Monitor](process-monitor.png)
-*Process Monitor -näkymää jossa filtterinä on Process Name ConnectionServer.exe.
+*Process Monitor -näkymää jossa filtterinä on Process Name ConnectionServer.exe.*
 
 Process Monitor -näkymää tarkastellessani päättelin vian olevan puutteellisessa komponentin rekisteröinnissä ja yritin rekisteröidä aluksi OMSER.DLL:n uudelleen:
 
