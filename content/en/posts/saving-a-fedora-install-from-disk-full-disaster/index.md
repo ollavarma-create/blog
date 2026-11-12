@@ -126,3 +126,16 @@ The lesson learned? Linux doesn’t always need a reinstall. Sometimes it just n
 - `flatpak uninstall --unused`
 
 *I am writing this from that very same Fedora installation, breathing much easier.*
+
+**Update 12.11.2026.** 
+
+Due to previous issues I had with disc space, now understanding how much Flatpacks etc. may consume disc space, I created a AppFootprint application.
+
+[AppFootprint](https://github.com/ollavarma-create/appfootprint) is an early-stage, open-source Linux desktop tool for investigating Flatpak, Snap, RPM and XDG user storage. It reports allocated-file-block observations and explains their limits, without removing data.
+
+Unlike a general disk analyzer, it aims to show which application a path belongs to, which dependencies are shared, and what a user should consider before cleaning anything. Measurements are based on allocated file blocks; they are not guaranteed to represent unique physical usage or recoverable space.
+
+Tested appimage is downloadable from [Releases-page](https://github.com/ollavarma-create/appfootprint/releases/tag/v0.1.0-alpha.1)
+
+![AppFootprint screen](appfootprint.png)
+
