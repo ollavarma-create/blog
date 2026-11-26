@@ -123,6 +123,8 @@ The repository therefore includes an [example district heating dashboard](https:
 
 ![Dedicated district heating dashboard in Home Assistant](ha-district-heating-dashboard.png)
 
+![Dedicated district heating dashboard in Home Assistant continued](ha-district-heating-dashboard2.png)
+
 The example entity IDs must be adapted to each installation. Home Assistant may include an area name in the assigned IDs, for example. Consumption charts use changes in the cumulative energy reading according to Home Assistant's recording timestamps, rather than the original API measurement timestamps. Historical data is not imported retroactively, and long-term statistics are still being tested.
 
 ## What comes next?

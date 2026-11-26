@@ -123,7 +123,9 @@ Repositoriossa on siksi [esimerkki erillisestä kaukolämmön dashboardista](htt
 
 ![Kaukolämmön oma dashboard Home Assistantissa](ha-district-heating-dashboard.png)
 
-Esimerkin entity ID:t on sovitettava omaan asennukseen. Home Assistant voi lisätä niihin esimerkiksi valitun huoneen nimen. Kulutusgraafit perustuvat kumulatiivisen energialukeman muutoksiin Home Assistantin tallennusajankohdan mukaan, eivät alkuperäisiin API:n mittausaikaleimoihin. Historiatietoja ei tuoda takautuvasti, ja pitkäaikaistilastojen toiminta on edelleen testauksessa.
+![Kaukolämmön oma dashboard Home Assistantissa jatkuu](ha-district-heating-dashboard2.png)
+
+Kuvissa näkyvät kustannukset ovat malleja ja keskihinta perustuu kahden tunnin mittaukseen, jolloin kuukausimaksu nostaa keskihintaa. Esimerkin entity ID:t on sovitettava omaan asennukseen. Home Assistant voi lisätä niihin esimerkiksi valitun huoneen nimen. Kulutusgraafit perustuvat kumulatiivisen energialukeman muutoksiin Home Assistantin tallennusajankohdan mukaan, eivät alkuperäisiin API:n mittausaikaleimoihin. Historiatietoja ei tuoda takautuvasti, ja pitkäaikaistilastojen toiminta on edelleen testauksessa.
 
 ## Mitä seuraavaksi?
 
