@@ -151,7 +151,7 @@ Tämä oli ehkä koko korjauksen tärkein mekaaninen oppi. Elektroniikka voi kes
 
 Pohdin myös käyttöjännitteen suodatusta ja ikääntyneiden kondensaattorien mahdollista osuutta oireeseen. En kuitenkaan lisännyt näyttömoduuliin kondensaattoreita summittaisesti: ensin pitäisi tuntea sen käyttöjännite ja kytkentä riittävän hyvin.
 
-Laitteen pääpiirilevyllä on lisäksi kelloa varten **CR1220-varaparisto**. Tarkistin sen tyypin, mutta sopivaa vaihtoparistoa ei ollut omassa nappiparistovalikoimassani juuri tällä hetkellä. Varaparisto sijaitsee näytön alla ja on helppo vaihtaa.
+Laitteen pääpiirilevyllä on lisäksi kelloa varten **CR1220-varaparisto**. Varaparisto sijaitsee näytön alla ja on helppo vaihtaa. Oikealla reunalla on pienet kolot, joista voi varovasti nostaa nuppineulalla vanhan pariston oikean reunan ylös. Paristoa painavat jouset ovat vasemmalla puolella. Uusi paristo maksaa Motonetissä 2,49€. 
 
 ## Lopputulos: näyttö toimii edelleen
 
@@ -172,4 +172,7 @@ Nyt EH-203 saa jatkaa koekäyttöä, ja minä voin palata alkuperäiseen tavoitt
 P.S. Kuvissa näkyvät vaalet jäljet johtuvat [Cryptoleaf](https://github.com/ollavarma-create/cryptoleaf) -sovelluksestani.
 
 ---
+Päivitys 26.11.2026
+
+Näyttö on toiminut oikein ilman häiriöitä testisäätimessä. Mitä ilmeisimmin näyttö on toimintakuntoinen. Huom! Testisäädin ei ole ollut niin kuumissa olosuhteissa kuin kaukolämpökeskuksen toiminnassa oleva säädin. Täyttä varmuutta korjauksen toimivuudesta ei siis ole.
 
